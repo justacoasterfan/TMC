@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ommandium_xe",
+    "customModelName": "Normal",
+    "name": "Commandium Axe",
+    "creativeTab": {
+      "value": "CUSTOM:TooMuchCommander"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 15.0,
+    "usageCount": 2005,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Commandium"
+      }
+    ]
+  }
+}

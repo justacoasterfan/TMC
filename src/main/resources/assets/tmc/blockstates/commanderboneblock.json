@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "tmc:commanderboneblock"
+    },
+    "facing=south": {
+      "model": "tmc:commanderboneblock"
+    },
+    "facing=north": {
+      "model": "tmc:commanderboneblock"
+    },
+    "facing=east": {
+      "model": "tmc:commanderboneblock",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "tmc:commanderboneblock",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "tmc:commanderboneblock",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "tmc:commanderboneblock",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

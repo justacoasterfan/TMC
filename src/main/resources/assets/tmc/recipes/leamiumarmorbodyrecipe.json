@@ -1,0 +1,39 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:leamiumingot"
+    },
+    "2": {
+      "item": "tmc:leamiumingot"
+    },
+    "3": {
+      "item": "tmc:leamiumingot"
+    },
+    "4": {
+      "item": "tmc:leamiumingot"
+    },
+    "5": {
+      "item": "tmc:leamiumingot"
+    },
+    "6": {
+      "item": "tmc:leamiumingot"
+    },
+    "7": {
+      "item": "tmc:leamiumingot"
+    },
+    "8": {
+      "item": "tmc:leamiumingot"
+    }
+  },
+  "result": {
+    "item": "tmc:leamiumarmorbody",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "tmc:infestedlog"
+    },
+    "facing=south": {
+      "model": "tmc:infestedlog"
+    },
+    "facing=north": {
+      "model": "tmc:infestedlog"
+    },
+    "facing=east": {
+      "model": "tmc:infestedlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "tmc:infestedlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "tmc:infestedlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "tmc:infestedlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "leamium_axe",
+    "customModelName": "Normal",
+    "name": "Leamium Axe",
+    "creativeTab": {
+      "value": "CUSTOM:TooMuchCommander"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 8.0,
+    "usageCount": 361,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

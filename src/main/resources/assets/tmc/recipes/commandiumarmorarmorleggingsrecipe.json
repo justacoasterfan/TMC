@@ -1,0 +1,36 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:commandium"
+    },
+    "1": {
+      "item": "tmc:commandium"
+    },
+    "2": {
+      "item": "tmc:commandium"
+    },
+    "3": {
+      "item": "tmc:commandium"
+    },
+    "5": {
+      "item": "tmc:commandium"
+    },
+    "6": {
+      "item": "tmc:commandium"
+    },
+    "8": {
+      "item": "tmc:commandium"
+    }
+  },
+  "result": {
+    "item": "tmc:commandiumarmorarmorlegs",
+    "count": 1
+  }
+}

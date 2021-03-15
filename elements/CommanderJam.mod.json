@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ommanderam",
+    "name": "Commander Jam",
+    "description": "Commander Jam",
+    "creativeTab": {
+      "value": "CUSTOM:TooMuchCommander"
+    },
+    "music": {
+      "value": "CUSTOM:commanderjam"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

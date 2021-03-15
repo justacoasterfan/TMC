@@ -1,0 +1,47 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "leamium_head",
+    "enableBody": true,
+    "textureBody": "leamium_body",
+    "enableLeggings": true,
+    "textureLeggings": "leamium_leggings",
+    "enableBoots": true,
+    "textureBoots": "leamium_boots",
+    "creativeTab": {
+      "value": "CUSTOM:TooMuchCommander"
+    },
+    "armorTextureFile": "leamium",
+    "helmetName": "Leamium Helmet",
+    "bodyName": "Leamium Chestplate",
+    "leggingsName": "Leamium Leggings",
+    "bootsName": "Leamium Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 20,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 3,
+    "enchantability": 12,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

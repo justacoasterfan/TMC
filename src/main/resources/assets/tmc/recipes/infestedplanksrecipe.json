@@ -1,0 +1,13 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tmc:infestedlog"
+    }
+  ],
+  "result": {
+    "item": "tmc:infestedplanks",
+    "count": 4
+  }
+}

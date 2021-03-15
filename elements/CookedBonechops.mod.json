@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_bonechop",
+    "customModelName": "Normal",
+    "name": "Cooked Bonechops",
+    "creativeTab": {
+      "value": "CUSTOM:TooMuchCommander"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 8,
+    "saturation": 12.8,
+    "eatingSpeed": 32,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

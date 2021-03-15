@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "tmc:dreieich_portal_ew"
+    },
+    "axis=x": {
+      "model": "tmc:dreieich_portal_ns"
+    },
+    "inventory": {
+      "model": "tmc:dreieich_portal_ns"
+    }
+  }
+}

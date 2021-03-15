@@ -1,0 +1,13 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tmc:commanderbone"
+    }
+  ],
+  "result": {
+    "item": "tmc:commanderbonedust",
+    "count": 3
+  }
+}

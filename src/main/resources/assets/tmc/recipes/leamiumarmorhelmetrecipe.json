@@ -1,0 +1,29 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:leamiumingot"
+    },
+    "1": {
+      "item": "tmc:leamiumingot"
+    },
+    "2": {
+      "item": "tmc:leamiumingot"
+    },
+    "3": {
+      "item": "tmc:leamiumingot"
+    },
+    "5": {
+      "item": "tmc:leamiumingot"
+    }
+  },
+  "result": {
+    "item": "tmc:leamiumarmorhelmet",
+    "count": 1
+  }
+}

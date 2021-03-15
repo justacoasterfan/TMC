@@ -1,0 +1,30 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:leamiumingot"
+    },
+    "1": {
+      "item": "tmc:leamiumingot"
+    },
+    "2": {
+      "item": "tmc:leamiumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tmc:leamiumpickaxe",
+    "count": 1
+  }
+}

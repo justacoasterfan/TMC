@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ommandium_ickaxe",
+    "customModelName": "Normal",
+    "name": "Commandium Pickaxe",
+    "creativeTab": {
+      "value": "CUSTOM:TooMuchCommander"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 4.0,
+    "usageCount": 2005,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Commandium"
+      }
+    ]
+  }
+}

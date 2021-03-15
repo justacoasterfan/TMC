@@ -1,0 +1,30 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:commandium"
+    },
+    "1": {
+      "item": "tmc:commandium"
+    },
+    "2": {
+      "item": "tmc:commandium"
+    },
+    "4": {
+      "item": "tmc:commandiumstick"
+    },
+    "7": {
+      "item": "tmc:commandiumstick"
+    }
+  },
+  "result": {
+    "item": "tmc:commandiumpickaxe",
+    "count": 1
+  }
+}

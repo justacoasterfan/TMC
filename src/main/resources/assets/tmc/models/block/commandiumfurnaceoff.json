@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tmc:blocks/ommandium_urnace_op",
+    "up": "tmc:blocks/ommandium_urnace_op",
+    "north": "tmc:blocks/ommandium_urnace_ront",
+    "east": "tmc:blocks/ommandium_urnace_ide",
+    "south": "tmc:blocks/ommandium_urnace_ide",
+    "west": "tmc:blocks/ommandium_urnace_ide",
+    "particle": "tmc:blocks/ommandium_urnace_op"
+  }
+}

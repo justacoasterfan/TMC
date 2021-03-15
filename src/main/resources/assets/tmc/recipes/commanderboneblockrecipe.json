@@ -1,0 +1,42 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:commanderbonedust"
+    },
+    "1": {
+      "item": "tmc:commanderbonedust"
+    },
+    "2": {
+      "item": "tmc:commanderbonedust"
+    },
+    "3": {
+      "item": "tmc:commanderbonedust"
+    },
+    "4": {
+      "item": "tmc:commanderbonedust"
+    },
+    "5": {
+      "item": "tmc:commanderbonedust"
+    },
+    "6": {
+      "item": "tmc:commanderbonedust"
+    },
+    "7": {
+      "item": "tmc:commanderbonedust"
+    },
+    "8": {
+      "item": "tmc:commanderbonedust"
+    }
+  },
+  "result": {
+    "item": "tmc:commanderboneblock",
+    "count": 1
+  }
+}

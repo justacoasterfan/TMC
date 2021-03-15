@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tmc:blocks/eamium_re",
+    "up": "tmc:blocks/eamium_re",
+    "north": "tmc:blocks/eamium_re",
+    "east": "tmc:blocks/eamium_re",
+    "south": "tmc:blocks/eamium_re",
+    "west": "tmc:blocks/eamium_re",
+    "particle": "tmc:blocks/eamium_re"
+  }
+}

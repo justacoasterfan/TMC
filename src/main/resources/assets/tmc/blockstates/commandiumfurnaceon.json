@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "tmc:commandiumfurnaceon"
+    },
+    "facing=north": {
+      "model": "tmc:commandiumfurnaceon"
+    },
+    "facing=east": {
+      "model": "tmc:commandiumfurnaceon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tmc:commandiumfurnaceon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tmc:commandiumfurnaceon",
+      "y": 270
+    }
+  }
+}

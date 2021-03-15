@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ommandium_oe",
+    "customModelName": "Normal",
+    "name": "Commandium Scythe",
+    "creativeTab": {
+      "value": "CUSTOM:TooMuchCommander"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 4.0,
+    "enchantability": 12,
+    "damageVsEntity": 5.0,
+    "usageCount": 2005,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Commandium"
+      }
+    ]
+  }
+}

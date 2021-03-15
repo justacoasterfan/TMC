@@ -1,0 +1,19 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tmc:commandium"
+    },
+    {
+      "item": "tmc:commanderbone"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "tmc:commandiumstick",
+    "count": 1
+  }
+}

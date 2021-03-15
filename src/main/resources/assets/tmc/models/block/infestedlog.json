@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tmc:blocks/nfested_og_op",
+    "up": "tmc:blocks/nfested_og_op",
+    "north": "tmc:blocks/nfested_og",
+    "east": "tmc:blocks/nfested_og",
+    "south": "tmc:blocks/nfested_og",
+    "west": "tmc:blocks/nfested_og",
+    "particle": "tmc:blocks/nfested_og_op"
+  }
+}
