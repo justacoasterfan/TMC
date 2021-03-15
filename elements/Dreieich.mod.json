@@ -6,9 +6,9 @@
       "value": "CUSTOM:CommanderLight"
     },
     "portalParticles": {
-      "value": "PORTAL"
+      "value": "VILLAGER_HAPPY"
     },
-    "portalLuminance": 0.0,
+    "portalLuminance": 1.0,
     "portalSound": {
       "value": "block.portal.ambient"
     },
@@ -16,8 +16,8 @@
     "igniterTab": {
       "value": "CUSTOM:TooMuchCommander"
     },
-    "texture": "ommander_tar",
-    "portalTexture": "ommander_ight",
+    "texture": "lint__eamium",
+    "portalTexture": "reieichortal",
     "enablePortal": true,
     "biomesInDimension": [
       {

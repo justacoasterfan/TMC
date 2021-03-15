@@ -2,7 +2,7 @@
   "id_map": {
     "GUI": 1,
     "DIMENSION": 1,
-    "ENTITY": 2
+    "ENTITY": 6
   },
   "mod_elements": [
     {
@@ -543,6 +543,41 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "CommanderBoss",
+      "type": "mob",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5,
+        "1": 6
+      }
+    },
+    {
+      "name": "InfestedCraftingTable",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "InfestedCraftingTableRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DreieichPortalIgniterRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -568,6 +603,7 @@
       "item.commandiumaxe.name": "Commandium Axe",
       "item.leamiumsword.name": "Leamium Sword",
       "item.leamiumingot.name": "Leamium Ingot",
+      "tile.infestedcraftingtable.name": "Infested Log",
       "item.commandiumsword.name": "Commandium Sword",
       "item.commanderbone.name": "Commander Bone",
       "item.leamiumpickaxe.name": "Leamium Pickaxe",
@@ -584,6 +620,7 @@
       "item.commandiumshovel.name": "Commandium Shovel",
       "item.commandiumstick.name": "Commandium Stick",
       "item.commandium.name": "Commandium",
+      "entity.commanderboss.name": "Commander Boss",
       "item.commandiumarmorarmorlegs.name": "Commandium Leggings",
       "item.leamiumarmorbody.name": "Leamium Chestplate",
       "item.record.commanderjam.desc": "Commander Jam",

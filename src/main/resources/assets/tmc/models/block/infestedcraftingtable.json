@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tmc:blocks/unknown_1",
+    "up": "tmc:blocks/ommandium_rafting_able_op",
+    "north": "tmc:blocks/ommandium_rafting_able_ront",
+    "east": "tmc:blocks/ommandium_rafting_able_ide",
+    "south": "tmc:blocks/ommandium_rafting_able_ide",
+    "west": "tmc:blocks/ommandium_rafting_able_ide",
+    "particle": "tmc:blocks/unknown_1"
+  }
+}

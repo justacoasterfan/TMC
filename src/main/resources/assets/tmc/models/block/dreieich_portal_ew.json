@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "tmc:blocks/ommander_ight",
-    "portal": "tmc:blocks/ommander_ight"
+    "particle": "tmc:blocks/reieichortal",
+    "portal": "tmc:blocks/reieichortal"
   },
   "elements": [
     {

@@ -452,7 +452,7 @@ public class WorldDreieich extends ElementsToomuchCommander.ModElement {
 			setHardness(-1.0F);
 			setUnlocalizedName("dreieich_portal");
 			setRegistryName("dreieich_portal");
-			setLightLevel(0F);
+			setLightLevel(1F);
 		}
 
 		@Override
@@ -555,7 +555,7 @@ public class WorldDreieich extends ElementsToomuchCommander.ModElement {
 					pz = pos.getZ() + 0.5 + 0.25 * j;
 					vz = random.nextFloat() * 2 * j;
 				}
-				world.spawnParticle(EnumParticleTypes.PORTAL, px, py, pz, vx, vy, vz);
+				world.spawnParticle(EnumParticleTypes.VILLAGER_HAPPY, px, py, pz, vx, vy, vz);
 			}
 			if (random.nextInt(110) == 0)
 				world.playSound(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
