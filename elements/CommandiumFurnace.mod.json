@@ -16,7 +16,7 @@
           "id": 0,
           "name": "Slot #0",
           "x": 300,
-          "y": 114
+          "y": 186
         }
       },
       {
@@ -28,16 +28,32 @@
           "id": 1,
           "name": "Slot #1",
           "x": 300,
-          "y": 186
+          "y": 114
         }
       },
       {
         "type": "outputslot",
         "data": {
           "id": 2,
+          "onTakenFromSlot": {
+            "name": "CommandiumFurnaceWhenItemRemovedFromSlotOutputSlot"
+          },
           "name": "Slot #2",
-          "x": 480,
+          "x": 516,
           "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Commandium Furnace",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Commandium Furnace",
+          "x": 264,
+          "y": 78
         }
       }
     ]

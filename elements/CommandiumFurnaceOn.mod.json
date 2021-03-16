@@ -79,6 +79,9 @@
     "inventoryOutSlotIDs": [
       2
     ],
+    "onTickUpdate": {
+      "name": "CommandiumFurnaceUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

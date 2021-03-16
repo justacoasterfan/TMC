@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Commandium Furnace Off",
+    "name": "Commandium Furnace",
     "specialInfo": [],
     "hardness": 3.5,
     "resistance": 3.5,
@@ -79,6 +79,9 @@
     "inventoryOutSlotIDs": [
       2
     ],
+    "onTickUpdate": {
+      "name": "CommandiumFurnaceUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -34,6 +34,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
+import net.mcreator.tmc.gui.GuiInnfestedCraftingGUI;
 import net.mcreator.tmc.gui.GuiCommandiumFurnace;
 
 import java.util.function.Supplier;
@@ -130,6 +131,8 @@ public class ElementsToomuchCommander implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiCommandiumFurnace.GUIID)
 				return new GuiCommandiumFurnace.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiInnfestedCraftingGUI.GUIID)
+				return new GuiInnfestedCraftingGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -137,6 +140,8 @@ public class ElementsToomuchCommander implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiCommandiumFurnace.GUIID)
 				return new GuiCommandiumFurnace.GuiWindow(world, x, y, z, player);
+			if (id == GuiInnfestedCraftingGUI.GUIID)
+				return new GuiInnfestedCraftingGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

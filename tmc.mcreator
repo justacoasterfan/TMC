@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 1,
+    "GUI": 2,
     "DIMENSION": 1,
-    "ENTITY": 6
+    "ENTITY": 8
   },
   "mod_elements": [
     {
@@ -578,6 +578,227 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "CommandiumFurnaceUpdateTick",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CommandiumFurnaceRecipe",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CommandiumFurnaceFuelBurnTime",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CommandiumFurnaceWhenItemRemovedFromSlotOutputSlot",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CommandiumFurnaceXpRewardXpAmount",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfestedCraftingTableUpdateTick",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfestedCraftingRecipes",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InnfestedCraftingGUI",
+      "type": "gui",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      }
+    },
+    {
+      "name": "CommanderBlaze",
+      "type": "mob",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7,
+        "1": 8
+      }
     }
   ],
   "variable_elements": [],
@@ -603,7 +824,7 @@
       "item.commandiumaxe.name": "Commandium Axe",
       "item.leamiumsword.name": "Leamium Sword",
       "item.leamiumingot.name": "Leamium Ingot",
-      "tile.infestedcraftingtable.name": "Infested Log",
+      "tile.infestedcraftingtable.name": "Infested Crafting Table",
       "item.commandiumsword.name": "Commandium Sword",
       "item.commanderbone.name": "Commander Bone",
       "item.leamiumpickaxe.name": "Leamium Pickaxe",
@@ -614,10 +835,11 @@
       "item.leamiumarmorhelmet.name": "Leamium Helmet",
       "tile.infestedlog.name": "Infested Log",
       "item.dreieich.name": "Dreieich Portal Igniter",
-      "tile.commandiumfurnaceoff.name": "Commandium Furnace Off",
+      "tile.commandiumfurnaceoff.name": "Commandium Furnace",
       "item.commanderbonedust.name": "Commander Bone Dust",
       "tile.infestedplanks.name": "Infested Log",
       "item.commandiumshovel.name": "Commandium Shovel",
+      "entity.commanderblaze.name": "Commander Blaze",
       "item.commandiumstick.name": "Commandium Stick",
       "item.commandium.name": "Commandium",
       "entity.commanderboss.name": "Commander Boss",

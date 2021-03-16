@@ -24,7 +24,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
-import net.mcreator.tmc.procedure.ProcedureCommandiumFurnaceWhenItemRemovedFromSlotOutputSlot;
+import net.mcreator.tmc.procedure.ProcedureInfestedCraftingRecipes;
 import net.mcreator.tmc.ToomuchCommander;
 import net.mcreator.tmc.ElementsToomuchCommander;
 
@@ -35,11 +35,11 @@ import java.util.HashMap;
 import java.io.IOException;
 
 @ElementsToomuchCommander.ModElement.Tag
-public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
-	public static int GUIID = 1;
+public class GuiInnfestedCraftingGUI extends ElementsToomuchCommander.ModElement {
+	public static int GUIID = 2;
 	public static HashMap guistate = new HashMap();
-	public GuiCommandiumFurnace(ElementsToomuchCommander instance) {
-		super(instance, 43);
+	public GuiInnfestedCraftingGUI(ElementsToomuchCommander instance) {
+		super(instance, 75);
 	}
 
 	@Override
@@ -59,22 +59,61 @@ public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 3);
+			this.internal = new InventoryBasic("", true, 26);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 26, 57) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 8, 17) {
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 26, 21) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 26, 17) {
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 134, 39) {
-				@Override
-				public ItemStack onTake(EntityPlayer entity, ItemStack stack) {
-					ItemStack retval = super.onTake(entity, stack);
-					GuiContainerMod.this.slotChanged(2, 1, 0);
-					return retval;
-				}
-
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 44, 17) {
+			}));
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 62, 17) {
+			}));
+			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 80, 17) {
+			}));
+			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 8, 35) {
+			}));
+			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 26, 35) {
+			}));
+			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 44, 35) {
+			}));
+			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 62, 35) {
+			}));
+			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 80, 35) {
+			}));
+			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 8, 53) {
+			}));
+			this.customSlots.put(15, this.addSlotToContainer(new Slot(internal, 15, 8, 71) {
+			}));
+			this.customSlots.put(20, this.addSlotToContainer(new Slot(internal, 20, 8, 89) {
+			}));
+			this.customSlots.put(11, this.addSlotToContainer(new Slot(internal, 11, 26, 53) {
+			}));
+			this.customSlots.put(12, this.addSlotToContainer(new Slot(internal, 12, 44, 53) {
+			}));
+			this.customSlots.put(13, this.addSlotToContainer(new Slot(internal, 13, 62, 53) {
+			}));
+			this.customSlots.put(14, this.addSlotToContainer(new Slot(internal, 14, 80, 53) {
+			}));
+			this.customSlots.put(16, this.addSlotToContainer(new Slot(internal, 16, 26, 71) {
+			}));
+			this.customSlots.put(17, this.addSlotToContainer(new Slot(internal, 17, 44, 71) {
+			}));
+			this.customSlots.put(18, this.addSlotToContainer(new Slot(internal, 18, 62, 71) {
+			}));
+			this.customSlots.put(19, this.addSlotToContainer(new Slot(internal, 19, 80, 71) {
+			}));
+			this.customSlots.put(21, this.addSlotToContainer(new Slot(internal, 21, 26, 89) {
+			}));
+			this.customSlots.put(22, this.addSlotToContainer(new Slot(internal, 22, 44, 89) {
+			}));
+			this.customSlots.put(23, this.addSlotToContainer(new Slot(internal, 23, 62, 89) {
+			}));
+			this.customSlots.put(24, this.addSlotToContainer(new Slot(internal, 24, 80, 89) {
+			}));
+			this.customSlots.put(25, this.addSlotToContainer(new Slot(internal, 25, 152, 53) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -84,9 +123,9 @@ public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 0 + 8 + sj * 18, 32 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlotToContainer(new Slot(player.inventory, si, 0 + 8 + si * 18, 0 + 142));
+				this.addSlotToContainer(new Slot(player.inventory, si, 0 + 8 + si * 18, 32 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -105,18 +144,18 @@ public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 3) {
-					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
+				if (index < 26) {
+					if (!this.mergeItemStack(itemstack1, 26, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
-					if (index < 3 + 27) {
-						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 26, false)) {
+					if (index < 26 + 27) {
+						if (!this.mergeItemStack(itemstack1, 26 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 26, 26 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -246,9 +285,9 @@ public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
 			this.z = z;
 			this.entity = entity;
 			this.xSize = 176;
-			this.ySize = 166;
+			this.ySize = 229;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("tmc:textures/commandiumfurnace.png");
+		private static final ResourceLocation texture = new ResourceLocation("tmc:textures/innfestedcraftinggui.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
@@ -283,7 +322,7 @@ public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
-			this.fontRenderer.drawString("Commandium Furnace", 7, 2, -16777216);
+			this.fontRenderer.drawString("Infested Crafting Table", 7, 7, -16777216);
 		}
 
 		@Override
@@ -296,9 +335,10 @@ public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
 		public void initGui() {
 			super.initGui();
 			this.guiLeft = (this.width - 176) / 2;
-			this.guiTop = (this.height - 166) / 2;
+			this.guiTop = (this.height - 229) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
+			this.buttonList.add(new GuiButton(0, this.guiLeft + 98, this.guiTop + 52, 50, 20, "Craft"));
 		}
 
 		@Override
@@ -413,6 +453,16 @@ public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureInfestedCraftingRecipes.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {
@@ -420,16 +470,5 @@ public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (slotID == 2 && changeType == 1) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedureCommandiumFurnaceWhenItemRemovedFromSlotOutputSlot.executeProcedure($_dependencies);
-			}
-		}
 	}
 }
