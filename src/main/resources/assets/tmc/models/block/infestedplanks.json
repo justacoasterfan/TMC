@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "tmc:blocks/nfested_lanks",
-    "up": "tmc:blocks/nfested_lanks",
-    "north": "tmc:blocks/nfested_lanks",
-    "east": "tmc:blocks/nfested_lanks",
-    "south": "tmc:blocks/nfested_lanks",
-    "west": "tmc:blocks/nfested_lanks",
-    "particle": "tmc:blocks/nfested_lanks"
+    "down": "tmc:blocks/infestedplanks",
+    "up": "tmc:blocks/infestedplanks",
+    "north": "tmc:blocks/infestedplanks",
+    "east": "tmc:blocks/infestedplanks",
+    "south": "tmc:blocks/infestedplanks",
+    "west": "tmc:blocks/infestedplanks",
+    "particle": "tmc:blocks/infestedplanks"
   }
 }

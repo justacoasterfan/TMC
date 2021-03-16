@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "tmc:blocks/nfested_og_op",
-    "up": "tmc:blocks/nfested_og_op",
-    "north": "tmc:blocks/nfested_og",
-    "east": "tmc:blocks/nfested_og",
-    "south": "tmc:blocks/nfested_og",
-    "west": "tmc:blocks/nfested_og",
-    "particle": "tmc:blocks/nfested_og_op"
+    "down": "tmc:blocks/infestedlogtop",
+    "up": "tmc:blocks/infestedlogtop",
+    "north": "tmc:blocks/infestedlogtop",
+    "east": "tmc:blocks/infestedlogtop",
+    "south": "tmc:blocks/infestedlogtop",
+    "west": "tmc:blocks/infestedlogtop",
+    "particle": "tmc:blocks/infestedlogtop"
   }
 }

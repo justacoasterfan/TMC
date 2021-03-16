@@ -2,16 +2,16 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "infestedplanks",
-    "textureTop": "infestedplanks",
-    "textureLeft": "infestedplanks",
-    "textureFront": "infestedplanks",
-    "textureRight": "infestedplanks",
-    "textureBack": "infestedplanks",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "nfested_ushroom",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "nfested_ushroom",
+    "textureRight": "nfested_ushroom",
+    "textureBack": "",
+    "renderType": 12,
+    "customModelName": "Cross model",
     "rotationMode": 0,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -20,16 +20,16 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Infested Planks",
+    "name": "Infested Mushroom",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 3.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:TooMuchCommander"
     },
-    "destroyTool": "axe",
-    "affectedBySilkTouch": true,
+    "destroyTool": "Not specified",
+    "affectedBySilkTouch": false,
     "customDrop": {
       "value": ""
     },
@@ -38,9 +38,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "PLANTS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -54,13 +54,13 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "PLANT"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -77,16 +77,18 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "CUSTOM:Dreieich"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.AIR"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 7,
+    "frequencyOnChunk": 3,
+    "minGenerateHeight": 100,
+    "maxGenerateHeight": 150
   }
 }

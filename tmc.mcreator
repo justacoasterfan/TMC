@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "ENTITY": 8,
+    "GUI": 2,
     "DIMENSION": 1,
-    "GUI": 2
+    "ENTITY": 8
   },
   "mod_elements": [
     {
@@ -807,6 +807,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "InfestedMushroom",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -850,6 +858,7 @@
       "entity.commanderblaze.name": "Commander Blaze",
       "item.commandiumstick.name": "Commandium Stick",
       "item.commandium.name": "Commandium",
+      "tile.infestedmushroom.name": "Infested Mushroom",
       "entity.commanderboss.name": "Commander Boss",
       "item.commandiumarmorarmorlegs.name": "Commandium Leggings",
       "item.leamiumarmorbody.name": "Leamium Chestplate",

@@ -29,6 +29,7 @@ item.commandiumshovel.name=Commandium Shovel
 entity.commanderblaze.name=Commander Blaze
 item.commandiumstick.name=Commandium Stick
 item.commandium.name=Commandium
+tile.infestedmushroom.name=Infested Mushroom
 entity.commanderboss.name=Commander Boss
 item.commandiumarmorarmorlegs.name=Commandium Leggings
 item.leamiumarmorbody.name=Leamium Chestplate
