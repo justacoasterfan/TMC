@@ -79,6 +79,9 @@
     "inventoryOutSlotIDs": [
       25
     ],
+    "onTickUpdate": {
+      "name": "InfestedCraftingRecipes"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
