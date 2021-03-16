@@ -34,7 +34,7 @@ public class ItemCommandiumArmorArmor extends ElementsToomuchCommander.ModElemen
 	@Override
 	public void initElements() {
 		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("COMMANDIUMARMORARMOR", "tmc:commandiumarmor", 75, new int[]{10, 30, 25, 10}, 45,
-				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
+				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 3f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("commandiumarmorarmorhelmet")
 				.setRegistryName("commandiumarmorarmorhelmet").setCreativeTab(TabTooMuchCommander.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST).setUnlocalizedName("commandiumarmorarmorbody")
