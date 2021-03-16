@@ -40,13 +40,10 @@ import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.Block;
 
-import net.mcreator.tmc.procedure.ProcedureInfestedCraftingRecipes;
 import net.mcreator.tmc.gui.GuiInnfestedCraftingGUI;
 import net.mcreator.tmc.creativetab.TabTooMuchCommander;
 import net.mcreator.tmc.ToomuchCommander;
 import net.mcreator.tmc.ElementsToomuchCommander;
-
-import java.util.Random;
 
 @ElementsToomuchCommander.ModElement.Tag
 public class BlockInfestedCraftingTable extends ElementsToomuchCommander.ModElement {
@@ -157,32 +154,6 @@ public class BlockInfestedCraftingTable extends ElementsToomuchCommander.ModElem
 				return Container.calcRedstoneFromInventory((TileEntityCustom) tileentity);
 			else
 				return 0;
-		}
-
-		@Override
-		public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
-			super.onBlockAdded(world, pos, state);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
-		}
-
-		@Override
-		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
-			super.updateTick(world, pos, state, random);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedureInfestedCraftingRecipes.executeProcedure($_dependencies);
-			}
-			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 
 		@Override

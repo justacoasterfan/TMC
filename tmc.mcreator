@@ -799,6 +799,14 @@
         "0": 7,
         "1": 8
       }
+    },
+    {
+      "name": "Bunker",
+      "type": "structure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
