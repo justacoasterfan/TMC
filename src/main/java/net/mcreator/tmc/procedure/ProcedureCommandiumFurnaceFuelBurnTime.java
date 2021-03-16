@@ -5,9 +5,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntityLockableLoot;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.init.Items;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.tmc.item.ItemCommanderBoneDust;
+import net.mcreator.tmc.block.BlockCommanderBoneBlock;
 import net.mcreator.tmc.ElementsToomuchCommander;
 
 @ElementsToomuchCommander.ModElement.Tag
@@ -44,13 +45,14 @@ public class ProcedureCommandiumFurnaceFuelBurnTime extends ElementsToomuchComma
 					return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(Items.COAL, (int) (1), 0).getItem())) {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(ItemCommanderBoneDust.block, (int) (1))
+				.getItem())) {
 			if (!world.isRemote) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				IBlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
-					_tileEntity.getTileData().setDouble("burnTime", 1600);
+					_tileEntity.getTileData().setDouble("burnTime", 800);
 				world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
 			{
@@ -66,49 +68,20 @@ public class ProcedureCommandiumFurnaceFuelBurnTime extends ElementsToomuchComma
 					return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(Items.COAL, (int) (1), 1).getItem())) {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(BlockCommanderBoneBlock.block, (int) (1))
+				.getItem())) {
 			if (!world.isRemote) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				IBlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
-					_tileEntity.getTileData().setDouble("burnTime", 1600);
+					_tileEntity.getTileData().setDouble("burnTime", 7500);
 				world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
 			{
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv instanceof TileEntityLockableLoot)
 					((TileEntityLockableLoot) inv).decrStackSize((int) (0), (int) (1));
-			}
-		}
-		if (((new Object() {
-			public ItemStack getItemStack(BlockPos pos, int sltid) {
-				TileEntity inv = world.getTileEntity(pos);
-				if (inv instanceof TileEntityLockableLoot)
-					return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-				return ItemStack.EMPTY;
-			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(Items.LAVA_BUCKET, (int) (1)).getItem())) {
-			if (!world.isRemote) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-				TileEntity _tileEntity = world.getTileEntity(_bp);
-				IBlockState _bs = world.getBlockState(_bp);
-				if (_tileEntity != null)
-					_tileEntity.getTileData().setDouble("burnTime", 20000);
-				world.notifyBlockUpdate(_bp, _bs, _bs, 3);
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv instanceof TileEntityLockableLoot)
-					((TileEntityLockableLoot) inv).decrStackSize((int) (0), (int) (1));
-			}
-			{
-				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-				if (inv != null && (inv instanceof TileEntityLockableLoot)) {
-					ItemStack _setstack = new ItemStack(Items.BUCKET, (int) (1));
-					_setstack.setCount(1);
-					((TileEntityLockableLoot) inv).setInventorySlotContents((int) (2), _setstack);
-				}
 			}
 		}
 	}
