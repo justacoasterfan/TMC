@@ -38,10 +38,14 @@
     "damageValueLeggings": 30,
     "damageValueBoots": 10,
     "enchantability": 45,
-    "toughness": 0.0,
+    "toughness": 3.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Commandium"
+      }
+    ]
   }
 }
