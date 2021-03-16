@@ -3,10 +3,10 @@
   "textures": {
     "down": "tmc:blocks/infestedlogtop",
     "up": "tmc:blocks/infestedlogtop",
-    "north": "tmc:blocks/infestedlogtop",
-    "east": "tmc:blocks/infestedlogtop",
-    "south": "tmc:blocks/infestedlogtop",
-    "west": "tmc:blocks/infestedlogtop",
+    "north": "tmc:blocks/nfested_og_1",
+    "east": "tmc:blocks/nfested_og_1",
+    "south": "tmc:blocks/nfested_og_1",
+    "west": "tmc:blocks/nfested_og_1",
     "particle": "tmc:blocks/infestedlogtop"
   }
 }

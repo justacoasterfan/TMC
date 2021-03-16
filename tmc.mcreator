@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 2,
+    "ENTITY": 8,
     "DIMENSION": 1,
-    "ENTITY": 8
+    "GUI": 2
   },
   "mod_elements": [
     {
@@ -809,9 +809,9 @@
       "ids": {}
     },
     {
-      "name": "InfestedMushroom",
-      "type": "block",
-      "sortid": 78,
+      "name": "Mushroom",
+      "type": "plant",
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -845,6 +845,7 @@
       "item.commanderbone.name": "Commander Bone",
       "item.leamiumpickaxe.name": "Leamium Pickaxe",
       "entity.commanderskeleton.name": "Commander Skeleton",
+      "tile.mushroom.name": "Mushroom",
       "item.leamiumaxe.name": "Leamium Axe",
       "item.commandiumarmorarmorhelmet.name": "Commandium Helmet",
       "item.cookedbonechops.name": "Cooked Bonechops",
@@ -858,7 +859,6 @@
       "entity.commanderblaze.name": "Commander Blaze",
       "item.commandiumstick.name": "Commandium Stick",
       "item.commandium.name": "Commandium",
-      "tile.infestedmushroom.name": "Infested Mushroom",
       "entity.commanderboss.name": "Commander Boss",
       "item.commandiumarmorarmorlegs.name": "Commandium Leggings",
       "item.leamiumarmorbody.name": "Leamium Chestplate",
