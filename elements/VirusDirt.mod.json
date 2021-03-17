@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "irus_ommandium_re",
-    "textureTop": "irus_ommandium_re",
-    "textureLeft": "irus_ommandium_re",
-    "textureFront": "irus_ommandium_re",
-    "textureRight": "irus_ommandium_re",
-    "textureBack": "irus_ommandium_re",
+    "texture": "irus_irt",
+    "textureTop": "irus_irt",
+    "textureLeft": "irus_irt",
+    "textureFront": "irus_irt",
+    "textureRight": "irus_irt",
+    "textureBack": "irus_irt",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,27 +20,27 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Commandium Ore",
+    "name": "Virus Dirt",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 3.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:TooMuchCommander"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:Commandium"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "EARTH"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,14 +56,14 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "SMOKE_NORMAL"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -78,21 +78,13 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:Dreieich"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:CommanderFields"
-      }
-    ],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 3,
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 16
+    "maxGenerateHeight": 64
   }
 }

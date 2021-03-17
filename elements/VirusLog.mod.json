@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "irus_ommandium_re",
-    "textureTop": "irus_ommandium_re",
-    "textureLeft": "irus_ommandium_re",
-    "textureFront": "irus_ommandium_re",
-    "textureRight": "irus_ommandium_re",
-    "textureBack": "irus_ommandium_re",
+    "texture": "irus_og_op",
+    "textureTop": "irus_og_op",
+    "textureLeft": "irus_og",
+    "textureFront": "irus_og",
+    "textureRight": "irus_og",
+    "textureBack": "irus_og",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,18 +20,18 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Commandium Ore",
+    "name": "Virus Log",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 3.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:TooMuchCommander"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:Commandium"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,14 +56,14 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "SMOKE_NORMAL"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -77,22 +77,16 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:CommanderFields"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 16
+    "maxGenerateHeight": 64
   }
 }
