@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "ENTITY": 8,
+    "GUI": 2,
     "DIMENSION": 1,
-    "GUI": 2
+    "ENTITY": 8
   },
   "mod_elements": [
     {
@@ -823,6 +823,46 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "VirusStoneBrick",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusCrackedStoneBrick",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusCarvedStoneBrick",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusMossyStoneBrick",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusCobblestone",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -836,48 +876,53 @@
   "language_map": {
     "en_us": {
       "item.rawbonechops.name": "Raw Bonechops",
-      "itemGroup.tabtoomuchcommander": "Too Much Commander",
-      "item.leamiumarmorboots.name": "Leamium Boots",
-      "tile.commanderboneblock.name": "Commander Bone Block",
       "item.commandiumscythe.name": "Commandium Scythe",
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
       "item.commanderjam.name": "Commander Jam",
       "tile.commandiumore.name": "Commandium Ore",
-      "item.commandiumpickaxe.name": "Commandium Pickaxe",
-      "item.commandiumaxe.name": "Commandium Axe",
-      "item.leamiumsword.name": "Leamium Sword",
       "item.leamiumingot.name": "Leamium Ingot",
-      "tile.infestedcraftingtable.name": "Infested Crafting Table",
-      "item.commandiumsword.name": "Commandium Sword",
       "item.commanderbone.name": "Commander Bone",
       "item.leamiumpickaxe.name": "Leamium Pickaxe",
-      "entity.commanderskeleton.name": "Commander Skeleton",
-      "tile.mushroom.name": "Mushroom",
       "item.leamiumaxe.name": "Leamium Axe",
       "item.commandiumarmorarmorhelmet.name": "Commandium Helmet",
-      "item.cookedbonechops.name": "Cooked Bonechops",
-      "item.leamiumarmorhelmet.name": "Leamium Helmet",
-      "tile.infestedlog.name": "Infested Log",
       "item.dreieich.name": "Dreieich Portal Igniter",
       "tile.commandiumfurnaceoff.name": "Commandium Furnace",
       "item.commanderbonedust.name": "Commander Bone Dust",
       "tile.infestedplanks.name": "Infested Planks",
-      "item.commandiumshovel.name": "Commandium Shovel",
+      "tile.viruscobblestone.name": "Virus Cobblestone",
       "entity.commanderblaze.name": "Commander Blaze",
       "item.commandiumstick.name": "Commandium Stick",
+      "item.record.commanderjam.desc": "Commander Jam",
+      "tile.commandiumfurnaceon.name": "Commandium Furnace Off",
+      "tile.virusmossystonebrick.name": "Virus Mossy Stone Brick",
+      "tile.commanderlight.name": "Commander Light",
+      "item.leamiumarmorlegs.name": "Leamium Leggings",
+      "item.commandiumarmorarmorbody.name": "Commandium Chestplate",
+      "itemGroup.tabtoomuchcommander": "Too Much Commander",
+      "item.leamiumarmorboots.name": "Leamium Boots",
+      "tile.commanderboneblock.name": "Commander Bone Block",
+      "tile.viruscrackedstonebrick.name": "Virus Cracked Stone Brick",
+      "item.commandiumpickaxe.name": "Commandium Pickaxe",
+      "item.commandiumaxe.name": "Commandium Axe",
+      "item.leamiumsword.name": "Leamium Sword",
+      "tile.infestedcraftingtable.name": "Infested Crafting Table",
+      "item.commandiumsword.name": "Commandium Sword",
+      "entity.commanderskeleton.name": "Commander Skeleton",
+      "tile.mushroom.name": "Mushroom",
+      "item.cookedbonechops.name": "Cooked Bonechops",
+      "item.leamiumarmorhelmet.name": "Leamium Helmet",
+      "tile.infestedlog.name": "Infested Log",
+      "item.commandiumshovel.name": "Commandium Shovel",
       "item.commandium.name": "Commandium",
+      "tile.virusstonebrick.name": "Virus Stone Brick",
       "entity.commanderboss.name": "Commander Boss",
       "item.commandiumarmorarmorlegs.name": "Commandium Leggings",
       "item.leamiumarmorbody.name": "Leamium Chestplate",
-      "item.record.commanderjam.desc": "Commander Jam",
-      "tile.commandiumfurnaceon.name": "Commandium Furnace Off",
       "tile.virusstone.name": "Virus Stone",
       "item.leamiumhoe.name": "Leamium Hoe",
-      "tile.commanderlight.name": "Commander Light",
-      "item.leamiumarmorlegs.name": "Leamium Leggings",
-      "item.commandiumarmorarmorboots.name": "Commandium Boots",
-      "item.commandiumarmorarmorbody.name": "Commandium Chestplate"
+      "tile.viruscarvedstonebrick.name": "Virus CarvedStone Brick",
+      "item.commandiumarmorarmorboots.name": "Commandium Boots"
     }
   },
   "workspaceSettings": {

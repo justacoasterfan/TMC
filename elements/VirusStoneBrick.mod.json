@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "irus_tone",
+    "texture": "rus_tone_ricks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "irus_tone",
@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Virus Stone",
+    "name": "Virus Stone Brick",
     "specialInfo": [],
     "hardness": 2.5,
     "resistance": 6.0,
@@ -31,7 +31,7 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:VirusCobblestone"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
