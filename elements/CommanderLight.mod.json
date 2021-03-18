@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "NETHER_WART"
     },
     "luminance": 0.0,
     "unbreakable": true,

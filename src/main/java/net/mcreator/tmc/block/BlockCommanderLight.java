@@ -40,7 +40,7 @@ public class BlockCommanderLight extends ElementsToomuchCommander.ModElement {
 		public BlockCustom() {
 			super(Material.REDSTONE_LIGHT);
 			setUnlocalizedName("commanderlight");
-			setSoundType(SoundType.GLASS);
+			setSoundType(SoundType.GROUND);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);

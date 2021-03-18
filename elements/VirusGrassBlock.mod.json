@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "irus_irt",
-    "textureTop": "irus_rass_lock_op",
-    "textureLeft": "irus_rass_lock",
-    "textureFront": "irus_rass_lock",
-    "textureRight": "irus_rass_lock",
-    "textureBack": "irus_rass_lock",
+    "textureTop": "irusrasslock4",
+    "textureLeft": "virusgrassbl0cok4",
+    "textureFront": "virusgrassbl0cok4",
+    "textureRight": "virusgrassbl0cok4",
+    "textureBack": "virusgrassbl0cok4",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WET_GRASS"
     },
     "luminance": 0.0,
     "unbreakable": false,
