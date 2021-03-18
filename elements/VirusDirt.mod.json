@@ -2,14 +2,14 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "ommander_ight",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "irus_irt",
+    "textureTop": "irus_irt",
+    "textureLeft": "irus_irt",
+    "textureFront": "irus_irt",
+    "textureRight": "irus_irt",
+    "textureBack": "irus_irt",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Commander Light",
+    "name": "Virus Dirt",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -36,11 +36,11 @@
     "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "REDSTONE_LIGHT"
+      "value": "EARTH"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,10 +56,10 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "NETHER_WART"
+      "value": "GROUND"
     },
     "luminance": 0.0,
-    "unbreakable": true,
+    "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
@@ -77,13 +77,11 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
+    "spawnWorldTypes": [
+      "CUSTOM:Dreieich"
     ],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

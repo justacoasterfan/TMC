@@ -863,6 +863,62 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "VirusSword",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusLog",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusCore",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusOre",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusDirt",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusGrassBlock",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VoidShard",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -879,15 +935,15 @@
       "item.commandiumscythe.name": "Commandium Scythe",
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
-      "item.commanderjam.name": "Commander Jam",
       "tile.commandiumore.name": "Commandium Ore",
+      "item.commanderjam.name": "Commander Jam",
       "item.leamiumingot.name": "Leamium Ingot",
       "item.commanderbone.name": "Commander Bone",
       "item.leamiumpickaxe.name": "Leamium Pickaxe",
       "item.leamiumaxe.name": "Leamium Axe",
       "item.commandiumarmorarmorhelmet.name": "Commandium Helmet",
-      "item.dreieich.name": "Dreieich Portal Igniter",
       "tile.commandiumfurnaceoff.name": "Commandium Furnace",
+      "item.dreieich.name": "Dreieich Portal Igniter",
       "item.commanderbonedust.name": "Commander Bone Dust",
       "tile.infestedplanks.name": "Infested Planks",
       "tile.viruscobblestone.name": "Virus Cobblestone",

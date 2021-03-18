@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "tmc:viruslog"
+    },
+    "facing=south": {
+      "model": "tmc:viruslog"
+    },
+    "facing=north": {
+      "model": "tmc:viruslog"
+    },
+    "facing=east": {
+      "model": "tmc:viruslog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "tmc:viruslog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "tmc:viruslog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "tmc:viruslog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

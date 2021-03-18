@@ -2,15 +2,15 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "ommander_ight",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 0,
+    "texture": "irus_og_op",
+    "textureTop": "irus_og_op",
+    "textureLeft": "irus_og",
+    "textureFront": "irus_og",
+    "textureRight": "irus_og",
+    "textureBack": "irus_og",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 5,
     "hasTransparency": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Commander Light",
+    "name": "Virus Log",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "REDSTONE_LIGHT"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,10 +56,10 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "NETHER_WART"
+      "value": "WOOD"
     },
     "luminance": 0.0,
-    "unbreakable": true,
+    "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {

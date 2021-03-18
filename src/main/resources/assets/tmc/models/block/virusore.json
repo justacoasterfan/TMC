@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tmc:blocks/irus_re",
+    "up": "tmc:blocks/irus_re",
+    "north": "tmc:blocks/irus_re",
+    "east": "tmc:blocks/irus_re",
+    "south": "tmc:blocks/irus_re",
+    "west": "tmc:blocks/irus_re",
+    "particle": "tmc:blocks/irus_re"
+  }
+}

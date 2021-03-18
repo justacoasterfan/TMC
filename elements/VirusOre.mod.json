@@ -2,14 +2,14 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "ommander_ight",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "irus_re",
+    "textureTop": "irus_re",
+    "textureLeft": "irus_re",
+    "textureFront": "irus_re",
+    "textureRight": "irus_re",
+    "textureBack": "irus_re",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
@@ -20,18 +20,18 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Commander Light",
+    "name": "Commandium Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 4.0,
+    "resistance": 3.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:TooMuchCommander"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:VoidShard"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "REDSTONE_LIGHT"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,14 +56,14 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "NETHER_WART"
+      "value": "STONE"
     },
     "luminance": 0.0,
-    "unbreakable": true,
-    "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "unbreakable": false,
+    "breakHarvestLevel": 3,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "SMOKE_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -77,16 +77,22 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:CommanderFields"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 16
   }
 }
