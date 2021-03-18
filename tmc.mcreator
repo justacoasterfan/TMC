@@ -911,6 +911,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "VirusSword",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -927,8 +935,8 @@
       "item.commandiumscythe.name": "Commandium Scythe",
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
-      "tile.commandiumore.name": "Commandium Ore",
       "item.commanderjam.name": "Commander Jam",
+      "tile.commandiumore.name": "Commandium Ore",
       "item.viruscore.name": "Virus Core",
       "item.leamiumingot.name": "Leamium Ingot",
       "item.commanderbone.name": "Commander Bone",
@@ -966,6 +974,7 @@
       "item.cookedbonechops.name": "Cooked Bonechops",
       "item.leamiumarmorhelmet.name": "Leamium Helmet",
       "tile.infestedlog.name": "Infested Log",
+      "item.virussword.name": "Virus Sword",
       "item.commandiumshovel.name": "Commandium Shovel",
       "tile.virusdirt.name": "Virus Dirt",
       "item.commandium.name": "Commandium",

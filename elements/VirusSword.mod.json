@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "irus_word",
+    "customModelName": "Normal",
+    "name": "Virus Sword",
+    "creativeTab": {
+      "value": "CUSTOM:TooMuchCommander"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.7,
+    "enchantability": 45,
+    "damageVsEntity": 23.5,
+    "usageCount": 5555,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}
