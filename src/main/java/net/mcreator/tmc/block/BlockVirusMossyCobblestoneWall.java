@@ -7,55 +7,61 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.NonNullList;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockWall;
 import net.minecraft.block.Block;
 
 import net.mcreator.tmc.creativetab.TabTooMuchCommander;
 import net.mcreator.tmc.ElementsToomuchCommander;
 
 @ElementsToomuchCommander.ModElement.Tag
-public class BlockVirusStone extends ElementsToomuchCommander.ModElement {
-	@GameRegistry.ObjectHolder("tmc:virusstone")
+public class BlockVirusMossyCobblestoneWall extends ElementsToomuchCommander.ModElement {
+	@GameRegistry.ObjectHolder("tmc:virusmossycobblestonewall")
 	public static final Block block = null;
-	public BlockVirusStone(ElementsToomuchCommander instance) {
-		super(instance, 44);
+	public BlockVirusMossyCobblestoneWall(ElementsToomuchCommander instance) {
+		super(instance, 111);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("virusstone"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("virusmossycobblestonewall"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:virusstone", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
+				new ModelResourceLocation("tmc:virusmossycobblestonewall", "inventory"));
 	}
-	public static class BlockCustom extends Block {
+	public static class BlockCustom extends BlockWall {
 		public BlockCustom() {
-			super(Material.ROCK);
-			setUnlocalizedName("virusstone");
+			super(new Block(Material.ROCK));
+			setUnlocalizedName("virusmossycobblestonewall");
 			setSoundType(SoundType.STONE);
 			setHardness(2.5F);
 			setResistance(6F);
 			setLightLevel(0F);
-			setLightOpacity(255);
+			setLightOpacity(0);
 			setCreativeTab(TabTooMuchCommander.tab);
 		}
 
 		@Override
-		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(BlockVirusCobblestone.block, (int) (1)));
+		public void getSubBlocks(CreativeTabs tab, NonNullList<ItemStack> items) {
+			items.add(new ItemStack(this));
+		}
+
+		@Override
+		public boolean isOpaqueCube(IBlockState state) {
+			return false;
 		}
 	}
 }
