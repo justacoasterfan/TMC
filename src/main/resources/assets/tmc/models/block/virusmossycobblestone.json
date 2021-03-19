@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tmc:blocks/irus_ossy_obblestone",
+    "particle": "tmc:blocks/irus_ossy_obblestone"
+  }
+}

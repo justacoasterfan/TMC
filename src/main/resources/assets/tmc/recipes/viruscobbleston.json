@@ -1,0 +1,16 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tmc:viruscobblestone"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "tmc:virusmossycobblestone",
+    "count": 1
+  }
+}

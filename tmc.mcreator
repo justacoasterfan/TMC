@@ -927,6 +927,46 @@
       "compiles": false,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "VirusMossyStone",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusCrackedStoneBricks",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusMossyCobblestone",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusCobbleston",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusStoneBRicks",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -992,6 +1032,7 @@
       "tile.virusstone.name": "Virus Stone",
       "item.leamiumhoe.name": "Leamium Hoe",
       "tile.viruscarvedstonebrick.name": "Virus CarvedStone Brick",
+      "tile.virusmossycobblestone.name": "Virus Cobblestone",
       "item.commandiumarmorarmorboots.name": "Commandium Boots"
     }
   },
