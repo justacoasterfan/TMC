@@ -50,7 +50,7 @@ public class BlockInfestedCraftingTable extends ElementsToomuchCommander.ModElem
 	@GameRegistry.ObjectHolder("tmc:infestedcraftingtable")
 	public static final Block block = null;
 	public BlockInfestedCraftingTable(ElementsToomuchCommander instance) {
-		super(instance, 64);
+		super(instance, 11);
 	}
 
 	@Override

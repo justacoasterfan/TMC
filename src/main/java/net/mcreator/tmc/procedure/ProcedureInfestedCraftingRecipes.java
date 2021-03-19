@@ -7,7 +7,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureInfestedCraftingRecipes extends ElementsToomuchCommander.ModElement {
 	public ProcedureInfestedCraftingRecipes(ElementsToomuchCommander instance) {
-		super(instance, 74);
+		super(instance, 89);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

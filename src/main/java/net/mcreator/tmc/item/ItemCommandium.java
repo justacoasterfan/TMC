@@ -20,7 +20,7 @@ public class ItemCommandium extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commandium")
 	public static final Item block = null;
 	public ItemCommandium(ElementsToomuchCommander instance) {
-		super(instance, 10);
+		super(instance, 25);
 	}
 
 	@Override

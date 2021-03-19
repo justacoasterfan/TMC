@@ -22,7 +22,7 @@ import java.util.Map;
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureCommandiumFurnaceRecipe extends ElementsToomuchCommander.ModElement {
 	public ProcedureCommandiumFurnaceRecipe(ElementsToomuchCommander instance) {
-		super(instance, 69);
+		super(instance, 84);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

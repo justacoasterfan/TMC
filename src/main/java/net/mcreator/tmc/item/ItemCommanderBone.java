@@ -20,7 +20,7 @@ public class ItemCommanderBone extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commanderbone")
 	public static final Item block = null;
 	public ItemCommanderBone(ElementsToomuchCommander instance) {
-		super(instance, 5);
+		super(instance, 20);
 	}
 
 	@Override

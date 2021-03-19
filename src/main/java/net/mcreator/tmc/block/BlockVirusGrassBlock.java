@@ -35,7 +35,7 @@ public class BlockVirusGrassBlock extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:virusgrassblock")
 	public static final Block block = null;
 	public BlockVirusGrassBlock(ElementsToomuchCommander instance) {
-		super(instance, 87);
+		super(instance, 3);
 	}
 
 	@Override

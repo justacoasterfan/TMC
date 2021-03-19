@@ -24,7 +24,7 @@ public class ItemLeamiumHoe extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:leamiumhoe")
 	public static final Item block = null;
 	public ItemLeamiumHoe(ElementsToomuchCommander instance) {
-		super(instance, 23);
+		super(instance, 40);
 	}
 
 	@Override

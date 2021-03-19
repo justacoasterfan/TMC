@@ -39,7 +39,7 @@ public class GuiCommandiumFurnace extends ElementsToomuchCommander.ModElement {
 	public static int GUIID = 1;
 	public static HashMap guistate = new HashMap();
 	public GuiCommandiumFurnace(ElementsToomuchCommander instance) {
-		super(instance, 43);
+		super(instance, 61);
 	}
 
 	@Override

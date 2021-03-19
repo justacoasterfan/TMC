@@ -22,7 +22,7 @@ import java.util.Random;
 @ElementsToomuchCommander.ModElement.Tag
 public class StructureBunker extends ElementsToomuchCommander.ModElement {
 	public StructureBunker(ElementsToomuchCommander instance) {
-		super(instance, 77);
+		super(instance, 91);
 	}
 
 	@Override
