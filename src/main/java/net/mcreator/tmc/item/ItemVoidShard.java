@@ -24,7 +24,7 @@ public class ItemVoidShard extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:voidshard")
 	public static final Item block = null;
 	public ItemVoidShard(ElementsToomuchCommander instance) {
-		super(instance, 39);
+		super(instance, 50);
 	}
 
 	@Override
@@ -59,6 +59,12 @@ public class ItemVoidShard extends ElementsToomuchCommander.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, IBlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		@SideOnly(Side.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
 		}
 
 		@Override
