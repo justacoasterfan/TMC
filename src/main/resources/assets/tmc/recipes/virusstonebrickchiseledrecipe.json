@@ -1,0 +1,16 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tmc:virusstonebrickslab"
+    },
+    {
+      "item": "tmc:virusstonebrickslab"
+    }
+  ],
+  "result": {
+    "item": "tmc:viruscarvedstonebrick",
+    "count": 1
+  }
+}

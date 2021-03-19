@@ -1,0 +1,42 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:viruscobblestonewall"
+    },
+    "1": {
+      "item": "tmc:viruscobblestonewall"
+    },
+    "2": {
+      "item": "tmc:viruscobblestonewall"
+    },
+    "3": {
+      "item": "tmc:viruscobblestonewall"
+    },
+    "4": {
+      "item": "minecraft:vine"
+    },
+    "5": {
+      "item": "tmc:viruscobblestonewall"
+    },
+    "6": {
+      "item": "tmc:viruscobblestonewall"
+    },
+    "7": {
+      "item": "tmc:viruscobblestonewall"
+    },
+    "8": {
+      "item": "tmc:viruscobblestonewall"
+    }
+  },
+  "result": {
+    "item": "tmc:virusmossycobblestonewall",
+    "count": 8
+  }
+}

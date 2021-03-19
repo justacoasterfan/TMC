@@ -1,0 +1,33 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "tmc:viruscobblestone"
+    },
+    "4": {
+      "item": "tmc:viruscobblestone"
+    },
+    "5": {
+      "item": "tmc:viruscobblestone"
+    },
+    "6": {
+      "item": "tmc:viruscobblestone"
+    },
+    "7": {
+      "item": "tmc:viruscobblestone"
+    },
+    "8": {
+      "item": "tmc:viruscobblestone"
+    }
+  },
+  "result": {
+    "item": "tmc:viruscobblestonestairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:virusstone"
+    },
+    "1": {
+      "item": "tmc:virusstone"
+    },
+    "2": {
+      "item": "tmc:virusstone"
+    }
+  },
+  "result": {
+    "item": "tmc:virusstoneslab",
+    "count": 6
+  }
+}
