@@ -1,0 +1,37 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "tmc:voidshard"
+    },
+    "title": {
+      "translate": "advancements.yourcomputerhasvirus.title"
+    },
+    "description": {
+      "translate": "advancements.yourcomputerhasvirus.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yourcomputerhasvirus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tmc:voidshard",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

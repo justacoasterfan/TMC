@@ -1071,6 +1071,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "YourComputerhasVirus",
+      "type": "achievement",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1087,8 +1095,8 @@
       "item.commandiumscythe.name": "Commandium Scythe",
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
-      "item.commanderjam.name": "Commander Jam",
       "tile.commandiumore.name": "Commandium Ore",
+      "item.commanderjam.name": "Commander Jam",
       "item.bunkerradar.name": "Bunker Radar",
       "tile.virusstonebrickwall.name": "Virus Stone Brick Wall",
       "item.viruscore.name": "Virus Core",
@@ -1134,7 +1142,9 @@
       "item.commandiumsword.name": "Commandium Sword",
       "entity.commanderskeleton.name": "Commander Skeleton",
       "tile.mushroom.name": "Mushroom",
+      "advancements.yourcomputerhasvirus.descr": "I told you!",
       "item.cookedbonechops.name": "Cooked Bonechops",
+      "advancements.yourcomputerhasvirus.title": "Your Computer has Virus",
       "item.leamiumarmorhelmet.name": "Leamium Helmet",
       "tile.infestedlog.name": "Infested Log",
       "item.virussword.name": "Virus Sword",
@@ -1167,6 +1177,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.tmc",
     "lockBaseModFiles": false
   },
