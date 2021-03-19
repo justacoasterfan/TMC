@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tmc:blocks/infestedvine",
+    "particle": "tmc:blocks/infestedvine"
+  }
+}

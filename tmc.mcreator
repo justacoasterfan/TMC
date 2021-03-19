@@ -964,7 +964,23 @@
       "name": "VirusCrackedStoneBricks",
       "type": "recipe",
       "sortid": 94,
-      "compiles": false,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "InfestedSapling",
+      "type": "plant",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "InfestedVines",
+      "type": "plant",
+      "sortid": 98,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     }
@@ -983,8 +999,8 @@
       "item.commandiumscythe.name": "Commandium Scythe",
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
-      "item.commanderjam.name": "Commander Jam",
       "tile.commandiumore.name": "Commandium Ore",
+      "item.commanderjam.name": "Commander Jam",
       "item.viruscore.name": "Virus Core",
       "item.leamiumingot.name": "Leamium Ingot",
       "item.commanderbone.name": "Commander Bone",
@@ -1012,6 +1028,8 @@
       "tile.commanderboneblock.name": "Commander Bone Block",
       "tile.viruscrackedstonebrick.name": "Virus Cracked Stone Brick",
       "tile.viruslog.name": "Virus Log",
+      "tile.infestedvines.name": "Infested Vines",
+      "tile.infestedsapling.name": "Mushroom",
       "item.commandiumpickaxe.name": "Commandium Pickaxe",
       "item.commandiumaxe.name": "Commandium Axe",
       "item.leamiumsword.name": "Leamium Sword",

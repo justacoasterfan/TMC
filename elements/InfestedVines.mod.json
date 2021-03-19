@@ -3,21 +3,21 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "nfested_ushroom",
+    "texture": "infestedvine",
     "customModelName": "Cross model",
-    "plantType": "normal",
+    "plantType": "growapable",
     "growapableSpawnType": "Plains",
-    "growapableMaxHeight": 3,
-    "name": "Mushroom",
+    "growapableMaxHeight": 13,
+    "name": "Infested Vines",
     "creativeTab": {
-      "value": "CUSTOM:TooMuchCommander"
+      "value": "DECORATIONS"
     },
     "hardness": 0.0,
     "resistance": 0.0,
     "luminance": 0.0,
     "unbreakable": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "BAMBOO"
     },
     "customDrop": {
       "value": ""
@@ -30,7 +30,7 @@
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 20,
+    "frequencyOnChunks": 24,
     "spawnWorldTypes": [
       "CUSTOM:Dreieich"
     ],

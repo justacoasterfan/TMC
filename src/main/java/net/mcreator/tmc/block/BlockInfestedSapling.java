@@ -34,11 +34,11 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 import java.util.Random;
 
 @ElementsToomuchCommander.ModElement.Tag
-public class BlockMushroom extends ElementsToomuchCommander.ModElement {
-	@GameRegistry.ObjectHolder("tmc:mushroom")
+public class BlockInfestedSapling extends ElementsToomuchCommander.ModElement {
+	@GameRegistry.ObjectHolder("tmc:infestedsapling")
 	public static final Block block = null;
-	public BlockMushroom(ElementsToomuchCommander instance) {
-		super(instance, 79);
+	public BlockInfestedSapling(ElementsToomuchCommander instance) {
+		super(instance, 97);
 	}
 
 	@Override
@@ -50,7 +50,7 @@ public class BlockMushroom extends ElementsToomuchCommander.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:mushroom", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:infestedsapling", "inventory"));
 	}
 
 	@Override
@@ -60,7 +60,7 @@ public class BlockMushroom extends ElementsToomuchCommander.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 20; i++) {
+		for (int i = 0; i < 6; i++) {
 			int l6 = chunkX + random.nextInt(16) + 8;
 			int i11 = random.nextInt(128);
 			int l14 = chunkZ + random.nextInt(16) + 8;
@@ -74,8 +74,8 @@ public class BlockMushroom extends ElementsToomuchCommander.ModElement {
 			setHardness(0F);
 			setResistance(0F);
 			setLightLevel(0F);
-			setUnlocalizedName("mushroom");
-			setRegistryName("mushroom");
+			setUnlocalizedName("infestedsapling");
+			setRegistryName("infestedsapling");
 		}
 
 		@Override

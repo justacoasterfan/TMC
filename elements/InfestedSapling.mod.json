@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "nfested_ushroom",
+    "texture": "nfested_apling",
     "customModelName": "Cross model",
     "plantType": "normal",
     "growapableSpawnType": "Plains",
@@ -30,7 +30,7 @@
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 20,
+    "frequencyOnChunks": 6,
     "spawnWorldTypes": [
       "CUSTOM:Dreieich"
     ],
