@@ -919,6 +919,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "BunkerChests",
+      "type": "loottable",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -935,8 +943,8 @@
       "item.commandiumscythe.name": "Commandium Scythe",
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
-      "item.commanderjam.name": "Commander Jam",
       "tile.commandiumore.name": "Commandium Ore",
+      "item.commanderjam.name": "Commander Jam",
       "item.viruscore.name": "Virus Core",
       "item.leamiumingot.name": "Leamium Ingot",
       "item.commanderbone.name": "Commander Bone",
@@ -954,7 +962,6 @@
       "item.commandiumstick.name": "Commandium Stick",
       "item.record.commanderjam.desc": "Commander Jam",
       "tile.commandiumfurnaceon.name": "Commandium Furnace Off",
-      "tile.virusore.name": "Commandium Ore",
       "tile.virusmossystonebrick.name": "Virus Mossy Stone Brick",
       "tile.commanderlight.name": "Commander Light",
       "item.leamiumarmorlegs.name": "Leamium Leggings",
