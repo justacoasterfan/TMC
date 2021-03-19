@@ -33,7 +33,7 @@ public class BlockVirusDirt extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:virusdirt")
 	public static final Block block = null;
 	public BlockVirusDirt(ElementsToomuchCommander instance) {
-		super(instance, 56);
+		super(instance, 46);
 	}
 
 	@Override

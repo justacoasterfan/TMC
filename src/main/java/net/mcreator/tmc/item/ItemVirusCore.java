@@ -24,7 +24,7 @@ public class ItemVirusCore extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:viruscore")
 	public static final Item block = null;
 	public ItemVirusCore(ElementsToomuchCommander instance) {
-		super(instance, 51);
+		super(instance, 40);
 	}
 
 	@Override

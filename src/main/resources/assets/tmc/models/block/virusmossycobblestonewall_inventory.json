@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "tmc:blocks/irus_ossy_obblestone",
+    "particle": "tmc:blocks/irus_ossy_obblestone"
+  }
+}
