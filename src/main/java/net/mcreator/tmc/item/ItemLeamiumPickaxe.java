@@ -24,7 +24,7 @@ public class ItemLeamiumPickaxe extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:leamiumpickaxe")
 	public static final Item block = null;
 	public ItemLeamiumPickaxe(ElementsToomuchCommander instance) {
-		super(instance, 37);
+		super(instance, 34);
 	}
 
 	@Override

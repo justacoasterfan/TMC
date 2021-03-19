@@ -20,7 +20,7 @@ public class ItemCommanderBoneDust extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commanderbonedust")
 	public static final Item block = null;
 	public ItemCommanderBoneDust(ElementsToomuchCommander instance) {
-		super(instance, 23);
+		super(instance, 21);
 	}
 
 	@Override

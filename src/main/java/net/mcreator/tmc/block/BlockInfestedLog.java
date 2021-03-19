@@ -31,7 +31,7 @@ public class BlockInfestedLog extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:infestedlog")
 	public static final Block block = null;
 	public BlockInfestedLog(ElementsToomuchCommander instance) {
-		super(instance, 6);
+		super(instance, 5);
 	}
 
 	@Override

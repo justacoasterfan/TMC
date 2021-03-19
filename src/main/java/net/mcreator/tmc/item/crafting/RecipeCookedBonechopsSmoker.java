@@ -13,7 +13,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class RecipeCookedBonechopsSmoker extends ElementsToomuchCommander.ModElement {
 	public RecipeCookedBonechopsSmoker(ElementsToomuchCommander instance) {
-		super(instance, 65);
+		super(instance, 68);
 	}
 
 	@Override

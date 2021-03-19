@@ -22,7 +22,7 @@ public class BlockInfestedPlanks extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:infestedplanks")
 	public static final Block block = null;
 	public BlockInfestedPlanks(ElementsToomuchCommander instance) {
-		super(instance, 5);
+		super(instance, 4);
 	}
 
 	@Override

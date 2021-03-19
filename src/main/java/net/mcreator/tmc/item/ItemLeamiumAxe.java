@@ -27,7 +27,7 @@ public class ItemLeamiumAxe extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:leamiumaxe")
 	public static final Item block = null;
 	public ItemLeamiumAxe(ElementsToomuchCommander instance) {
-		super(instance, 38);
+		super(instance, 35);
 	}
 
 	@Override

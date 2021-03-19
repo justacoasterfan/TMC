@@ -24,7 +24,7 @@ public class ItemCommandiumShovel extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commandiumshovel")
 	public static final Item block = null;
 	public ItemCommandiumShovel(ElementsToomuchCommander instance) {
-		super(instance, 34);
+		super(instance, 31);
 	}
 
 	@Override

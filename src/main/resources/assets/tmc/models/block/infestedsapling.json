@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "tmc:blocks/nfested_apling",
-    "particle": "tmc:blocks/nfested_apling"
+    "cross": "tmc:blocks/nfested_ushroom",
+    "particle": "tmc:blocks/nfested_ushroom"
   }
 }

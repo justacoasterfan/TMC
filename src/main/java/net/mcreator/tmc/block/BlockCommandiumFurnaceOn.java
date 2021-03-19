@@ -54,7 +54,7 @@ public class BlockCommandiumFurnaceOn extends ElementsToomuchCommander.ModElemen
 	@GameRegistry.ObjectHolder("tmc:commandiumfurnaceon")
 	public static final Block block = null;
 	public BlockCommandiumFurnaceOn(ElementsToomuchCommander instance) {
-		super(instance, 62);
+		super(instance, 65);
 	}
 
 	@Override

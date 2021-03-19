@@ -40,7 +40,7 @@ public class BlockVirusOre extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:virusore")
 	public static final Block block = null;
 	public BlockVirusOre(ElementsToomuchCommander instance) {
-		super(instance, 8);
+		super(instance, 13);
 	}
 
 	@Override

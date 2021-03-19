@@ -12,7 +12,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureCommandiumFurnaceWhenItemRemovedFromSlotOutputSlot extends ElementsToomuchCommander.ModElement {
 	public ProcedureCommandiumFurnaceWhenItemRemovedFromSlotOutputSlot(ElementsToomuchCommander instance) {
-		super(instance, 86);
+		super(instance, 89);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

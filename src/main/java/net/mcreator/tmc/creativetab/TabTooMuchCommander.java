@@ -13,7 +13,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class TabTooMuchCommander extends ElementsToomuchCommander.ModElement {
 	public TabTooMuchCommander(ElementsToomuchCommander instance) {
-		super(instance, 48);
+		super(instance, 51);
 	}
 
 	@Override

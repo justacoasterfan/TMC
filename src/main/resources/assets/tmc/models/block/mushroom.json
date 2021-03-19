@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "tmc:blocks/nfested_ushroom",
-    "particle": "tmc:blocks/nfested_ushroom"
-  }
-}

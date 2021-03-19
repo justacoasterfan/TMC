@@ -10,7 +10,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureCommandiumFurnaceXpRewardXpAmount extends ElementsToomuchCommander.ModElement {
 	public ProcedureCommandiumFurnaceXpRewardXpAmount(ElementsToomuchCommander instance) {
-		super(instance, 87);
+		super(instance, 90);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
