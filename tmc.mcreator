@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "ENTITY": 8,
     "GUI": 2,
-    "DIMENSION": 1
+    "DIMENSION": 1,
+    "ENTITY": 8
   },
   "mod_elements": [
     {
@@ -1007,8 +1007,8 @@
       "item.commandiumscythe.name": "Commandium Scythe",
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
-      "tile.commandiumore.name": "Commandium Ore",
       "item.commanderjam.name": "Commander Jam",
+      "tile.commandiumore.name": "Commandium Ore",
       "item.bunkerradar.name": "Bunker Radar",
       "item.viruscore.name": "Virus Core",
       "item.leamiumingot.name": "Leamium Ingot",
