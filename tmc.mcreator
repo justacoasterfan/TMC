@@ -8,7 +8,7 @@
     {
       "name": "CommanderSkeleton",
       "type": "mob",
-      "sortid": 47,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -19,7 +19,7 @@
     {
       "name": "TooMuchCommander",
       "type": "tab",
-      "sortid": 48,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -27,7 +27,7 @@
     {
       "name": "CommanderFields",
       "type": "biome",
-      "sortid": 49,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -35,7 +35,7 @@
     {
       "name": "CommanderBone",
       "type": "item",
-      "sortid": 20,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -43,7 +43,7 @@
     {
       "name": "Commandium",
       "type": "item",
-      "sortid": 25,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -51,7 +51,7 @@
     {
       "name": "CommandiumOre",
       "type": "block",
-      "sortid": 9,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -59,7 +59,7 @@
     {
       "name": "LeamiumOre",
       "type": "block",
-      "sortid": 10,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -67,7 +67,7 @@
     {
       "name": "LeamiumIngot",
       "type": "item",
-      "sortid": 24,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -75,7 +75,7 @@
     {
       "name": "LeamiumSmelting",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -83,7 +83,7 @@
     {
       "name": "LeamiumBlastSmelting",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -91,7 +91,7 @@
     {
       "name": "CommandiumSword",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -99,7 +99,7 @@
     {
       "name": "CommandiumPickaxe",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -107,7 +107,7 @@
     {
       "name": "CommandiumAxe",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -115,7 +115,7 @@
     {
       "name": "CommandiumStick",
       "type": "item",
-      "sortid": 21,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -123,7 +123,7 @@
     {
       "name": "CommandiumStickRecipe",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -131,7 +131,7 @@
     {
       "name": "CommandiumSwordRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -139,7 +139,7 @@
     {
       "name": "CommandiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -147,7 +147,7 @@
     {
       "name": "CommandiumAxeRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -155,7 +155,7 @@
     {
       "name": "CommandiumScythe",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -163,7 +163,7 @@
     {
       "name": "CommandiumScytheRecipe",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -171,7 +171,7 @@
     {
       "name": "InfestedLog",
       "type": "block",
-      "sortid": 6,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -179,7 +179,7 @@
     {
       "name": "Dreieich",
       "type": "dimension",
-      "sortid": 30,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -189,7 +189,7 @@
     {
       "name": "CommandiumShovel",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -197,7 +197,7 @@
     {
       "name": "CommandiumShovelRecipe",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -205,7 +205,7 @@
     {
       "name": "CommanderBoneBlock",
       "type": "block",
-      "sortid": 19,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -213,7 +213,7 @@
     {
       "name": "CommanderBoneDust",
       "type": "item",
-      "sortid": 23,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -221,7 +221,7 @@
     {
       "name": "CommanderJam",
       "type": "musicdisc",
-      "sortid": 44,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -229,7 +229,7 @@
     {
       "name": "CommanderBoneDustRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -237,7 +237,7 @@
     {
       "name": "CommanderBoneBlockRecipe",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -245,7 +245,7 @@
     {
       "name": "InfestedPlanks",
       "type": "block",
-      "sortid": 5,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -253,7 +253,7 @@
     {
       "name": "InfestedPlanksRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -261,7 +261,7 @@
     {
       "name": "CommandiumFurnace",
       "type": "gui",
-      "sortid": 61,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -271,7 +271,7 @@
     {
       "name": "CommandiumFurnaceOff",
       "type": "block",
-      "sortid": 12,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -279,7 +279,7 @@
     {
       "name": "CommandiumFurnaceOn",
       "type": "block",
-      "sortid": 62,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -287,7 +287,7 @@
     {
       "name": "RawBonechops",
       "type": "food",
-      "sortid": 28,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -295,7 +295,7 @@
     {
       "name": "CookedBonechops",
       "type": "food",
-      "sortid": 29,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -303,7 +303,7 @@
     {
       "name": "RawBonechopsFoodEaten",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -335,7 +335,7 @@
     {
       "name": "CookedBonechopsRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -343,7 +343,7 @@
     {
       "name": "CookedBonechopsSmoker",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -351,7 +351,7 @@
     {
       "name": "CommanderLight",
       "type": "block",
-      "sortid": 18,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -359,7 +359,7 @@
     {
       "name": "CommandiumArmorArmor",
       "type": "armor",
-      "sortid": 42,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -373,7 +373,7 @@
     {
       "name": "CommandiumArmorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -381,7 +381,7 @@
     {
       "name": "CommandiumArmorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -389,7 +389,7 @@
     {
       "name": "CommandiumArmorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -397,7 +397,7 @@
     {
       "name": "CommandiumArmorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -405,7 +405,7 @@
     {
       "name": "InfestedToNormalPlanks",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -413,7 +413,7 @@
     {
       "name": "InfestedToNormalLogs",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -421,7 +421,7 @@
     {
       "name": "LeamiumArmor",
       "type": "armor",
-      "sortid": 43,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -435,7 +435,7 @@
     {
       "name": "LeamiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -443,7 +443,7 @@
     {
       "name": "LeamiumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -451,7 +451,7 @@
     {
       "name": "LeamiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -459,7 +459,7 @@
     {
       "name": "LeamiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -467,7 +467,7 @@
     {
       "name": "LeamiumPickaxe",
       "type": "tool",
-      "sortid": 37,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -475,7 +475,7 @@
     {
       "name": "LeamiumAxe",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -483,7 +483,7 @@
     {
       "name": "LeamiumSword",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -491,7 +491,7 @@
     {
       "name": "LeamiumShovel",
       "type": "tool",
-      "sortid": 39,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -499,7 +499,7 @@
     {
       "name": "LeamiumHoe",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -507,7 +507,7 @@
     {
       "name": "LeamiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -515,7 +515,7 @@
     {
       "name": "LeamiumAxeRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -523,7 +523,7 @@
     {
       "name": "LeamiumSwordRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -531,7 +531,7 @@
     {
       "name": "LeamiumShovelRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -539,7 +539,7 @@
     {
       "name": "LeamiumHoeRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -547,7 +547,7 @@
     {
       "name": "CommanderBoss",
       "type": "mob",
-      "sortid": 46,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -558,7 +558,7 @@
     {
       "name": "InfestedCraftingTable",
       "type": "block",
-      "sortid": 11,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -566,7 +566,7 @@
     {
       "name": "InfestedCraftingTableRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -574,7 +574,7 @@
     {
       "name": "DreieichPortalIgniterRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -582,7 +582,7 @@
     {
       "name": "CommandiumFurnaceUpdateTick",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -610,7 +610,7 @@
     {
       "name": "CommandiumFurnaceRecipe",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -638,7 +638,7 @@
     {
       "name": "CommandiumFurnaceFuelBurnTime",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -666,7 +666,7 @@
     {
       "name": "CommandiumFurnaceWhenItemRemovedFromSlotOutputSlot",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -698,7 +698,7 @@
     {
       "name": "CommandiumFurnaceXpRewardXpAmount",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -726,7 +726,7 @@
     {
       "name": "InfestedCraftingTableUpdateTick",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -754,7 +754,7 @@
     {
       "name": "InfestedCraftingRecipes",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -782,7 +782,7 @@
     {
       "name": "InnfestedCraftingGUI",
       "type": "gui",
-      "sortid": 90,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -792,7 +792,7 @@
     {
       "name": "CommanderBlaze",
       "type": "mob",
-      "sortid": 45,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -803,7 +803,7 @@
     {
       "name": "Bunker",
       "type": "structure",
-      "sortid": 91,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -811,7 +811,7 @@
     {
       "name": "Mushroom",
       "type": "plant",
-      "sortid": 22,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -819,7 +819,7 @@
     {
       "name": "VirusStone",
       "type": "block",
-      "sortid": 1,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -827,7 +827,7 @@
     {
       "name": "VirusStoneBrick",
       "type": "block",
-      "sortid": 14,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -835,7 +835,7 @@
     {
       "name": "VirusCrackedStoneBrick",
       "type": "block",
-      "sortid": 16,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -843,7 +843,7 @@
     {
       "name": "VirusCarvedStoneBrick",
       "type": "block",
-      "sortid": 17,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -851,7 +851,7 @@
     {
       "name": "VirusMossyStoneBrick",
       "type": "block",
-      "sortid": 15,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -859,7 +859,7 @@
     {
       "name": "VirusCobblestone",
       "type": "block",
-      "sortid": 4,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -867,7 +867,7 @@
     {
       "name": "VirusDirt",
       "type": "block",
-      "sortid": 2,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -875,7 +875,7 @@
     {
       "name": "VirusGrassBlock",
       "type": "block",
-      "sortid": 3,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -883,7 +883,7 @@
     {
       "name": "VirusOre",
       "type": "block",
-      "sortid": 8,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -891,7 +891,7 @@
     {
       "name": "VoidShard",
       "type": "item",
-      "sortid": 26,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -899,7 +899,7 @@
     {
       "name": "VirusCore",
       "type": "item",
-      "sortid": 27,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -907,7 +907,7 @@
     {
       "name": "VirusLog",
       "type": "block",
-      "sortid": 7,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -915,7 +915,7 @@
     {
       "name": "VirusSword",
       "type": "tool",
-      "sortid": 41,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -923,7 +923,15 @@
     {
       "name": "BunkerChests",
       "type": "loottable",
-      "sortid": 92,
+      "sortid": 93,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusMossyCobblestone",
+      "type": "block",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -932,22 +940,6 @@
       "name": "VirusMossyStone",
       "type": "recipe",
       "sortid": 93,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "VirusCrackedStoneBricks",
-      "type": "recipe",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "VirusMossyCobblestone",
-      "type": "block",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -964,6 +956,14 @@
       "name": "VirusStoneBRicks",
       "type": "recipe",
       "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusCrackedStoneBricks",
+      "type": "recipe",
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1033,7 +1033,6 @@
       "tile.virusstone.name": "Virus Stone",
       "item.leamiumhoe.name": "Leamium Hoe",
       "tile.viruscarvedstonebrick.name": "Virus CarvedStone Brick",
-      "tile.virusmossycobblestone.name": "Virus Cobblestone",
       "item.commandiumarmorarmorboots.name": "Commandium Boots"
     }
   },
