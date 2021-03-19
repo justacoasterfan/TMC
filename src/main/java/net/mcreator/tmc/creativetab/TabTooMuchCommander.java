@@ -1,19 +1,11 @@
 
 package net.mcreator.tmc.creativetab;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.creativetab.CreativeTabs;
-
-import net.mcreator.tmc.item.ItemCommanderBone;
-import net.mcreator.tmc.ElementsToomuchCommander;
-
 @ElementsToomuchCommander.ModElement.Tag
 public class TabTooMuchCommander extends ElementsToomuchCommander.ModElement {
+
 	public TabTooMuchCommander(ElementsToomuchCommander instance) {
-		super(instance, 61);
+		super(instance, 30);
 	}
 
 	@Override
@@ -31,5 +23,7 @@ public class TabTooMuchCommander extends ElementsToomuchCommander.ModElement {
 			}
 		};
 	}
+
 	public static CreativeTabs tab;
+
 }

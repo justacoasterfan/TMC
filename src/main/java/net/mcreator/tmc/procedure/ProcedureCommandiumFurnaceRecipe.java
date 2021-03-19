@@ -1,28 +1,10 @@
 package net.mcreator.tmc.procedure;
 
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.SoundCategory;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.tileentity.TileEntityLockableLoot;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.item.ItemStack;
-import net.minecraft.init.Blocks;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.properties.IProperty;
-
-import net.mcreator.tmc.block.BlockCommandiumFurnaceOn;
-import net.mcreator.tmc.block.BlockCommandiumFurnaceOff;
-import net.mcreator.tmc.ElementsToomuchCommander;
-
-import java.util.Map;
-
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureCommandiumFurnaceRecipe extends ElementsToomuchCommander.ModElement {
+
 	public ProcedureCommandiumFurnaceRecipe(ElementsToomuchCommander instance) {
-		super(instance, 97);
+		super(instance, 69);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -42,10 +24,12 @@ public class ProcedureCommandiumFurnaceRecipe extends ElementsToomuchCommander.M
 			System.err.println("Failed to load dependency world for procedure CommandiumFurnaceRecipe!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		if ((((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == BlockCommandiumFurnaceOff.block.getDefaultState()
 				.getBlock()) && (((new Object() {
 					public int getAmount(BlockPos pos, int sltid) {
@@ -71,19 +55,23 @@ public class ProcedureCommandiumFurnaceRecipe extends ElementsToomuchCommander.M
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				IBlockState _bs = BlockCommandiumFurnaceOn.block.getDefaultState();
+
 				IBlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getProperties().entrySet()) {
 					IProperty _property = entry.getKey();
 					if (_bs.getPropertyKeys().contains(_property))
 						_bs = _bs.withProperty(_property, (Comparable) entry.getValue());
 				}
+
 				TileEntity _te = world.getTileEntity(_bp);
 				NBTTagCompound _bnbt = null;
 				if (_te != null) {
 					_bnbt = _te.writeToNBT(new NBTTagCompound());
 					_te.invalidate();
 				}
+
 				world.setBlockState(_bp, _bs, 3);
+
 				if (_bnbt != null) {
 					_te = world.getTileEntity(_bp);
 					if (_te != null) {
@@ -120,6 +108,7 @@ public class ProcedureCommandiumFurnaceRecipe extends ElementsToomuchCommander.M
 					$_dependencies.put("x", (int) (x));
 					$_dependencies.put("y", (int) (y));
 					$_dependencies.put("z", (int) (z));
+
 					ProcedureCommandiumFurnaceFuelBurnTime.executeProcedure($_dependencies);
 				}
 			} else if (((new Object() {
@@ -218,6 +207,7 @@ public class ProcedureCommandiumFurnaceRecipe extends ElementsToomuchCommander.M
 							$_dependencies.put("x", (int) (x));
 							$_dependencies.put("y", (int) (y));
 							$_dependencies.put("z", (int) (z));
+
 							ProcedureCommandiumFurnaceXpRewardXpAmount.executeProcedure($_dependencies);
 						}
 						{
@@ -269,19 +259,23 @@ public class ProcedureCommandiumFurnaceRecipe extends ElementsToomuchCommander.M
 				{
 					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 					IBlockState _bs = BlockCommandiumFurnaceOff.block.getDefaultState();
+
 					IBlockState _bso = world.getBlockState(_bp);
 					for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getProperties().entrySet()) {
 						IProperty _property = entry.getKey();
 						if (_bs.getPropertyKeys().contains(_property))
 							_bs = _bs.withProperty(_property, (Comparable) entry.getValue());
 					}
+
 					TileEntity _te = world.getTileEntity(_bp);
 					NBTTagCompound _bnbt = null;
 					if (_te != null) {
 						_bnbt = _te.writeToNBT(new NBTTagCompound());
 						_te.invalidate();
 					}
+
 					world.setBlockState(_bp, _bs, 3);
+
 					if (_bnbt != null) {
 						_te = world.getTileEntity(_bp);
 						if (_te != null) {
@@ -294,5 +288,7 @@ public class ProcedureCommandiumFurnaceRecipe extends ElementsToomuchCommander.M
 				}
 			}
 		}
+
 	}
+
 }
