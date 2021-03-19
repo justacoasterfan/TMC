@@ -4,14 +4,11 @@
   "definition": {
     "recipeType": "Crafting",
     "xpReward": 0.0,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 6,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:InfestedPlanks"
-      },
-      {
         "value": ""
       },
       {
@@ -30,16 +27,19 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:VirusStone"
       },
       {
-        "value": ""
+        "value": "CUSTOM:VirusStone"
+      },
+      {
+        "value": "CUSTOM:VirusStone"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.PLANKS#0"
+      "value": "CUSTOM:VirusStoneSlab"
     },
-    "name": "infestedtonormalplanks",
+    "name": "virusstoneslabreciperow1",
     "namespace": "mod"
   }
 }

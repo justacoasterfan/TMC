@@ -1,0 +1,33 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:virusstonebrick"
+    },
+    "3": {
+      "item": "tmc:virusstonebrick"
+    },
+    "4": {
+      "item": "tmc:virusstonebrick"
+    },
+    "6": {
+      "item": "tmc:virusstonebrick"
+    },
+    "7": {
+      "item": "tmc:virusstonebrick"
+    },
+    "8": {
+      "item": "tmc:virusstonebrick"
+    }
+  },
+  "result": {
+    "item": "tmc:virusstonebrickstairs",
+    "count": 4
+  }
+}

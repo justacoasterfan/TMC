@@ -1,0 +1,33 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:virusstone"
+    },
+    "3": {
+      "item": "tmc:virusstone"
+    },
+    "4": {
+      "item": "tmc:virusstone"
+    },
+    "6": {
+      "item": "tmc:virusstone"
+    },
+    "7": {
+      "item": "tmc:virusstone"
+    },
+    "8": {
+      "item": "tmc:virusstone"
+    }
+  },
+  "result": {
+    "item": "tmc:virusstonestairs",
+    "count": 4
+  }
+}

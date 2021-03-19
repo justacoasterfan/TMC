@@ -4,11 +4,13 @@
   "ingredients": [
     {
       "item": "tmc:infestedplanks"
+    },
+    {
+      "item": "tmc:infestedplanks"
     }
   ],
   "result": {
-    "item": "minecraft:planks",
-    "data": 0,
-    "count": 1
+    "item": "minecraft:stick",
+    "count": 4
   }
 }

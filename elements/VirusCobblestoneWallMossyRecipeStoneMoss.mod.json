@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 8,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:VirusCobblestoneWall"
+      },
+      {
+        "value": "CUSTOM:VirusCobblestoneWall"
+      },
+      {
+        "value": "CUSTOM:VirusCobblestoneWall"
+      },
+      {
+        "value": "CUSTOM:VirusCobblestoneWall"
+      },
+      {
+        "value": "Blocks.VINE"
+      },
+      {
+        "value": "CUSTOM:VirusCobblestoneWall"
+      },
+      {
+        "value": "CUSTOM:VirusCobblestoneWall"
+      },
+      {
+        "value": "CUSTOM:VirusCobblestoneWall"
+      },
+      {
+        "value": "CUSTOM:VirusCobblestoneWall"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VirusMossyCobblestoneWall"
+    },
+    "name": "viruscobblestonewallmossyrecipestonemoss",
+    "namespace": "mod"
+  }
+}
