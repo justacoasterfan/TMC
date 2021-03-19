@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 2,
     "DIMENSION": 1,
+    "GUI": 2,
     "ENTITY": 8
   },
   "mod_elements": [
@@ -865,38 +865,6 @@
       "ids": {}
     },
     {
-      "name": "VirusSword",
-      "type": "tool",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "VirusLog",
-      "type": "block",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "VirusCore",
-      "type": "item",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "VirusOre",
-      "type": "block",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "VirusDirt",
       "type": "block",
       "sortid": 86,
@@ -913,6 +881,14 @@
       "ids": {}
     },
     {
+      "name": "VirusOre",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "VoidShard",
       "type": "item",
       "sortid": 89,
@@ -921,10 +897,34 @@
       "ids": {}
     },
     {
+      "name": "VirusCore",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusLog",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VirusSword",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "BunkerChests",
       "type": "loottable",
       "sortid": 93,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     }

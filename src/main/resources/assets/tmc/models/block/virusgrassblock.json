@@ -2,11 +2,11 @@
   "parent": "block/cube",
   "textures": {
     "down": "tmc:blocks/irus_irt",
-    "up": "tmc:blocks/irusrasslock4",
-    "north": "tmc:blocks/virusgrassbl0cok4",
-    "east": "tmc:blocks/virusgrassbl0cok4",
-    "south": "tmc:blocks/virusgrassbl0cok4",
-    "west": "tmc:blocks/virusgrassbl0cok4",
+    "up": "tmc:blocks/grasstop",
+    "north": "tmc:blocks/grassblovkl",
+    "east": "tmc:blocks/grassblovkl",
+    "south": "tmc:blocks/grassblovkl",
+    "west": "tmc:blocks/grassblovkl",
     "particle": "tmc:blocks/irus_irt"
   }
 }
