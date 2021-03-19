@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Your Computer has Virus",
-    "achievementDescription": "I told you!",
+    "achievementDescription": "Obtain a Virus Shard",
     "achievementIcon": {
       "value": "CUSTOM:VoidShard"
     },
