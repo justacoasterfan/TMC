@@ -1,44 +1,14 @@
 
 package net.mcreator.tmc.block;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.common.EnumPlantType;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.gen.feature.WorldGenReed;
-import net.minecraft.world.gen.IChunkGenerator;
-import net.minecraft.world.chunk.IChunkProvider;
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.util.math.RayTraceResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.NonNullList;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockReed;
-import net.minecraft.block.Block;
-
-import net.mcreator.tmc.world.WorldDreieich;
-import net.mcreator.tmc.creativetab.TabTooMuchCommander;
-import net.mcreator.tmc.ElementsToomuchCommander;
-
-import java.util.Random;
-
 @ElementsToomuchCommander.ModElement.Tag
 public class BlockInfestedVines extends ElementsToomuchCommander.ModElement {
+
 	@GameRegistry.ObjectHolder("tmc:infestedvines")
 	public static final Block block = null;
+
 	public BlockInfestedVines(ElementsToomuchCommander instance) {
-		super(instance, 50);
+		super(instance, 98);
 	}
 
 	@Override
@@ -56,10 +26,12 @@ public class BlockInfestedVines extends ElementsToomuchCommander.ModElement {
 	@Override
 	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
 		boolean dimensionCriteria = false;
+
 		if (dimID == WorldDreieich.DIMID)
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
+
 		for (int i = 0; i < 24; i++) {
 			int l6 = chunkX + random.nextInt(16) + 8;
 			int i11 = random.nextInt(128);
@@ -82,8 +54,11 @@ public class BlockInfestedVines extends ElementsToomuchCommander.ModElement {
 				}
 			}).generate(world, random, new BlockPos(l6, i11, l14));
 		}
+
 	}
+
 	public static class BlockCustomFlower extends BlockReed {
+
 		public BlockCustomFlower() {
 			setSoundType(SoundType.GROUND);
 			setCreativeTab(TabTooMuchCommander.tab);
@@ -92,6 +67,7 @@ public class BlockInfestedVines extends ElementsToomuchCommander.ModElement {
 			setLightLevel(0F);
 			setUnlocalizedName("infestedvines");
 			setRegistryName("infestedvines");
+
 		}
 
 		@Override
@@ -122,6 +98,7 @@ public class BlockInfestedVines extends ElementsToomuchCommander.ModElement {
 
 		@Override
 		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
+
 			if (world.getBlockState(pos.down()).getBlock() == block || this.checkForDrop(world, pos, state)) {
 				if (world.isAirBlock(pos.up())) {
 					int l;
@@ -138,5 +115,6 @@ public class BlockInfestedVines extends ElementsToomuchCommander.ModElement {
 				}
 			}
 		}
+
 	}
 }

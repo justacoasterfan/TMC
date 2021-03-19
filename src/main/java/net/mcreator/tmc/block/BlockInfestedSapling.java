@@ -1,44 +1,14 @@
 
 package net.mcreator.tmc.block;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.common.EnumPlantType;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.gen.feature.WorldGenFlowers;
-import net.minecraft.world.gen.IChunkGenerator;
-import net.minecraft.world.chunk.IChunkProvider;
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.util.math.RayTraceResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.NonNullList;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockFlower;
-import net.minecraft.block.Block;
-
-import net.mcreator.tmc.world.WorldDreieich;
-import net.mcreator.tmc.creativetab.TabTooMuchCommander;
-import net.mcreator.tmc.ElementsToomuchCommander;
-
-import java.util.Random;
-
 @ElementsToomuchCommander.ModElement.Tag
 public class BlockInfestedSapling extends ElementsToomuchCommander.ModElement {
+
 	@GameRegistry.ObjectHolder("tmc:infestedsapling")
 	public static final Block block = null;
+
 	public BlockInfestedSapling(ElementsToomuchCommander instance) {
-		super(instance, 48);
+		super(instance, 97);
 	}
 
 	@Override
@@ -56,18 +26,23 @@ public class BlockInfestedSapling extends ElementsToomuchCommander.ModElement {
 	@Override
 	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
 		boolean dimensionCriteria = false;
+
 		if (dimID == WorldDreieich.DIMID)
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 6; i++) {
+
+		for (int i = 0; i < 20; i++) {
 			int l6 = chunkX + random.nextInt(16) + 8;
 			int i11 = random.nextInt(128);
 			int l14 = chunkZ + random.nextInt(16) + 8;
 			(new WorldGenFlowers(((BlockFlower) block), BlockFlower.EnumFlowerType.DANDELION)).generate(world, random, new BlockPos(l6, i11, l14));
 		}
+
 	}
+
 	public static class BlockCustomFlower extends BlockFlower {
+
 		public BlockCustomFlower() {
 			setSoundType(SoundType.PLANT);
 			setCreativeTab(TabTooMuchCommander.tab);
@@ -76,6 +51,7 @@ public class BlockInfestedSapling extends ElementsToomuchCommander.ModElement {
 			setLightLevel(0F);
 			setUnlocalizedName("infestedsapling");
 			setRegistryName("infestedsapling");
+
 		}
 
 		@Override
@@ -105,5 +81,6 @@ public class BlockInfestedSapling extends ElementsToomuchCommander.ModElement {
 				list.add(new ItemStack(this, 1, blockflower$enumflowertype.getMeta()));
 			}
 		}
+
 	}
 }

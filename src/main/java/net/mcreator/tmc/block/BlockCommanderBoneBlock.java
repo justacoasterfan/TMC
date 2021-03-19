@@ -1,35 +1,12 @@
 
 package net.mcreator.tmc.block;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Rotation;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.Item;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.properties.PropertyDirection;
-import net.minecraft.block.properties.IProperty;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockDirectional;
-import net.minecraft.block.Block;
-
-import net.mcreator.tmc.creativetab.TabTooMuchCommander;
-import net.mcreator.tmc.ElementsToomuchCommander;
-
 @ElementsToomuchCommander.ModElement.Tag
 public class BlockCommanderBoneBlock extends ElementsToomuchCommander.ModElement {
+
 	@GameRegistry.ObjectHolder("tmc:commanderboneblock")
 	public static final Block block = null;
+
 	public BlockCommanderBoneBlock(ElementsToomuchCommander instance) {
 		super(instance, 6);
 	}
@@ -44,20 +21,29 @@ public class BlockCommanderBoneBlock extends ElementsToomuchCommander.ModElement
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:commanderboneblock", "inventory"));
+
 	}
+
 	public static class BlockCustom extends Block {
+
 		public static final PropertyDirection FACING = BlockDirectional.FACING;
+
 		public BlockCustom() {
 			super(Material.ROCK);
+
 			setUnlocalizedName("commanderboneblock");
 			setSoundType(SoundType.STONE);
+
 			setHarvestLevel("pickaxe", 2);
+
 			setHardness(2F);
 			setResistance(2F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabTooMuchCommander.tab);
+
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.SOUTH));
+
 		}
 
 		@Override
@@ -98,5 +84,7 @@ public class BlockCommanderBoneBlock extends ElementsToomuchCommander.ModElement
 				facing = EnumFacing.SOUTH;
 			return this.getDefaultState().withProperty(FACING, facing);
 		}
+
 	}
+
 }

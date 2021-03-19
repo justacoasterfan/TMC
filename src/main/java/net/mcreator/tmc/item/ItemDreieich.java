@@ -1,23 +1,11 @@
 
 package net.mcreator.tmc.item;
 
-import net.minecraftforge.fml.common.registry.GameRegistry;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.EnumActionResult;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.EntityPlayer;
-
-import net.mcreator.tmc.world.WorldDreieich;
-import net.mcreator.tmc.creativetab.TabTooMuchCommander;
-
 public class ItemDreieich extends Item {
+
 	@GameRegistry.ObjectHolder("tmc:dreieich")
 	public static final Item block = null;
+
 	public ItemDreieich() {
 		super();
 		this.maxStackSize = 1;
@@ -35,6 +23,7 @@ public class ItemDreieich extends Item {
 		} else {
 			if (world.isAirBlock(pos))
 				WorldDreieich.portal.portalSpawn(world, pos);
+
 			itemstack.damageItem(1, entity);
 			return EnumActionResult.SUCCESS;
 		}
