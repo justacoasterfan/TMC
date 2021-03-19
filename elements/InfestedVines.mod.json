@@ -10,7 +10,7 @@
     "growapableMaxHeight": 13,
     "name": "Infested Vines",
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:TooMuchCommander"
     },
     "hardness": 0.0,
     "resistance": 0.0,

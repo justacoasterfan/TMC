@@ -21,7 +21,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.SoundType;
@@ -29,6 +28,7 @@ import net.minecraft.block.BlockReed;
 import net.minecraft.block.Block;
 
 import net.mcreator.tmc.world.WorldDreieich;
+import net.mcreator.tmc.creativetab.TabTooMuchCommander;
 import net.mcreator.tmc.ElementsToomuchCommander;
 
 import java.util.Random;
@@ -86,7 +86,7 @@ public class BlockInfestedVines extends ElementsToomuchCommander.ModElement {
 	public static class BlockCustomFlower extends BlockReed {
 		public BlockCustomFlower() {
 			setSoundType(SoundType.GROUND);
-			setCreativeTab(CreativeTabs.DECORATIONS);
+			setCreativeTab(TabTooMuchCommander.tab);
 			setHardness(0F);
 			setResistance(0F);
 			setLightLevel(0F);
