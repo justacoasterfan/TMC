@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "tmc:blocks/irus_ossy_obblestone",
+    "down": "tmc:blocks/irus_ossy_obblestone",
+    "up": "tmc:blocks/irus_ossy_obblestone",
+    "north": "tmc:blocks/irus_ossy_obblestone",
+    "east": "tmc:blocks/irus_ossy_obblestone",
+    "south": "tmc:blocks/irus_ossy_obblestone",
+    "west": "tmc:blocks/irus_ossy_obblestone",
     "particle": "tmc:blocks/irus_ossy_obblestone"
   }
 }

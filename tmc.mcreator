@@ -924,7 +924,7 @@
       "name": "BunkerChests",
       "type": "loottable",
       "sortid": 93,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
@@ -964,7 +964,7 @@
       "name": "VirusCrackedStoneBricks",
       "type": "recipe",
       "sortid": 94,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     }
@@ -983,8 +983,8 @@
       "item.commandiumscythe.name": "Commandium Scythe",
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
-      "tile.commandiumore.name": "Commandium Ore",
       "item.commanderjam.name": "Commander Jam",
+      "tile.commandiumore.name": "Commandium Ore",
       "item.viruscore.name": "Virus Core",
       "item.leamiumingot.name": "Leamium Ingot",
       "item.commanderbone.name": "Commander Bone",
@@ -1033,6 +1033,7 @@
       "tile.virusstone.name": "Virus Stone",
       "item.leamiumhoe.name": "Leamium Hoe",
       "tile.viruscarvedstonebrick.name": "Virus CarvedStone Brick",
+      "tile.virusmossycobblestone.name": "Virus Cobblestone",
       "item.commandiumarmorarmorboots.name": "Commandium Boots"
     }
   },
