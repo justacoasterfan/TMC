@@ -1,14 +1,46 @@
 
 package net.mcreator.tmc.block;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.gen.feature.WorldGenMinable;
+import net.minecraft.world.gen.IChunkGenerator;
+import net.minecraft.world.chunk.IChunkProvider;
+import net.minecraft.world.biome.Biome;
+import net.minecraft.world.World;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.NonNullList;
+import net.minecraft.util.EnumParticleTypes;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.Item;
+import net.minecraft.init.Blocks;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.Minecraft;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.Block;
+
+import net.mcreator.tmc.item.ItemVoidShard;
+import net.mcreator.tmc.creativetab.TabTooMuchCommander;
+import net.mcreator.tmc.ElementsToomuchCommander;
+
+import java.util.Random;
+
 @ElementsToomuchCommander.ModElement.Tag
 public class BlockVirusOre extends ElementsToomuchCommander.ModElement {
-
 	@GameRegistry.ObjectHolder("tmc:virusore")
 	public static final Block block = null;
-
 	public BlockVirusOre(ElementsToomuchCommander instance) {
-		super(instance, 43);
+		super(instance, 39);
 	}
 
 	@Override
@@ -21,25 +53,21 @@ public class BlockVirusOre extends ElementsToomuchCommander.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:virusore", "inventory"));
-
 	}
 
 	@Override
 	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
 		boolean dimensionCriteria = false;
-
 		if (dimID == 0)
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-
 		boolean biomeCriteria = false;
 		Biome biome = world.getBiome(new BlockPos(chunkX, 128, chunkZ));
 		if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("tmc:commanderfields")))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-
 		for (int i = 0; i < 1; i++) {
 			int x = chunkX + random.nextInt(16);
 			int y = random.nextInt(16) + 0;
@@ -55,23 +83,17 @@ public class BlockVirusOre extends ElementsToomuchCommander.ModElement {
 			})).generate(world, random, new BlockPos(x, y, z));
 		}
 	}
-
 	public static class BlockCustom extends Block {
-
 		public BlockCustom() {
 			super(Material.ROCK);
-
 			setUnlocalizedName("virusore");
 			setSoundType(SoundType.STONE);
-
 			setHarvestLevel("pickaxe", 3);
-
 			setHardness(4F);
 			setResistance(3F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabTooMuchCommander.tab);
-
 		}
 
 		@Override
@@ -102,7 +124,5 @@ public class BlockVirusOre extends ElementsToomuchCommander.ModElement {
 					world.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0, d1, d2, d3, d4, d5);
 				}
 		}
-
 	}
-
 }

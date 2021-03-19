@@ -1,12 +1,28 @@
 
 package net.mcreator.tmc.item;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemFood;
+import net.minecraft.item.Item;
+import net.minecraft.item.EnumAction;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+
+import net.mcreator.tmc.procedure.ProcedureRawBonechopsFoodEaten;
+import net.mcreator.tmc.creativetab.TabTooMuchCommander;
+import net.mcreator.tmc.ElementsToomuchCommander;
+
 @ElementsToomuchCommander.ModElement.Tag
 public class ItemRawBonechops extends ElementsToomuchCommander.ModElement {
-
 	@GameRegistry.ObjectHolder("tmc:rawbonechops")
 	public static final Item block = null;
-
 	public ItemRawBonechops(ElementsToomuchCommander instance) {
 		super(instance, 27);
 	}
@@ -21,14 +37,11 @@ public class ItemRawBonechops extends ElementsToomuchCommander.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("tmc:rawbonechops", "inventory"));
 	}
-
 	public static class ItemFoodCustom extends ItemFood {
-
 		public ItemFoodCustom() {
 			super(3, 1.8f, true);
 			setUnlocalizedName("rawbonechops");
 			setRegistryName("rawbonechops");
-
 			setCreativeTab(TabTooMuchCommander.tab);
 			setMaxStackSize(64);
 		}
@@ -51,11 +64,8 @@ public class ItemRawBonechops extends ElementsToomuchCommander.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-
 				ProcedureRawBonechopsFoodEaten.executeProcedure($_dependencies);
 			}
 		}
-
 	}
-
 }

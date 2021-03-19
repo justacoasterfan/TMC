@@ -1,12 +1,31 @@
 
 package net.mcreator.tmc.item;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.item.ItemTool;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.init.Blocks;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.Block;
+
+import net.mcreator.tmc.creativetab.TabTooMuchCommander;
+import net.mcreator.tmc.ElementsToomuchCommander;
+
+import java.util.Set;
+
 @ElementsToomuchCommander.ModElement.Tag
 public class ItemCommandiumAxe extends ElementsToomuchCommander.ModElement {
-
 	@GameRegistry.ObjectHolder("tmc:commandiumaxe")
 	public static final Item block = null;
-
 	public ItemCommandiumAxe(ElementsToomuchCommander instance) {
 		super(instance, 15);
 	}
@@ -14,7 +33,6 @@ public class ItemCommandiumAxe extends ElementsToomuchCommander.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
-
 		}.setUnlocalizedName("commandiumaxe").setRegistryName("commandiumaxe").setCreativeTab(TabTooMuchCommander.tab));
 	}
 
@@ -23,17 +41,13 @@ public class ItemCommandiumAxe extends ElementsToomuchCommander.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("tmc:commandiumaxe", "inventory"));
 	}
-
 	private static class ItemToolCustom extends ItemTool {
-
 		private static final Set<Block> effective_items_set = com.google.common.collect.Sets
 				.newHashSet(new Block[]{Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN,
 						Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
-
 		protected ItemToolCustom() {
 			super(EnumHelper.addToolMaterial("COMMANDIUMAXE", 3, 2005, 10f, 11f, 12), effective_items_set);
 			this.attackDamage = 11f;
-
 			this.attackSpeed = -3f;
 		}
 
@@ -44,7 +58,5 @@ public class ItemCommandiumAxe extends ElementsToomuchCommander.ModElement {
 					? super.getDestroySpeed(stack, state)
 					: this.efficiency;
 		}
-
 	}
-
 }

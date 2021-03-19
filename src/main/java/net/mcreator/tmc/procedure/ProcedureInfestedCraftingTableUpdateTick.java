@@ -1,10 +1,20 @@
 package net.mcreator.tmc.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.tileentity.TileEntityLockableLoot;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.init.Blocks;
+
+import net.mcreator.tmc.item.ItemCommanderBone;
+import net.mcreator.tmc.block.BlockCommanderBoneBlock;
+import net.mcreator.tmc.ElementsToomuchCommander;
+
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureInfestedCraftingTableUpdateTick extends ElementsToomuchCommander.ModElement {
-
 	public ProcedureInfestedCraftingTableUpdateTick(ElementsToomuchCommander instance) {
-		super(instance, 73);
+		super(instance, 101);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -24,12 +34,10 @@ public class ProcedureInfestedCraftingTableUpdateTick extends ElementsToomuchCom
 			System.err.println("Failed to load dependency world for procedure InfestedCraftingTableUpdateTick!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if ((((new Object() {
 			public int getAmount(BlockPos pos, int sltid) {
 				TileEntity inv = world.getTileEntity(pos);
@@ -962,7 +970,5 @@ public class ProcedureInfestedCraftingTableUpdateTick extends ElementsToomuchCom
 				}
 			}
 		}
-
 	}
-
 }
