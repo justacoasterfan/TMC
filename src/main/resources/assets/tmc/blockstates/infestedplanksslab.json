@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "tmc:infestedplanksslab"
+    },
+    "half=top,variant=default": {
+      "model": "tmc:infestedplanksslab_top"
+    }
+  }
+}

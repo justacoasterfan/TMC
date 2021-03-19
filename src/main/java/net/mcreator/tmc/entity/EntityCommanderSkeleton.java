@@ -37,7 +37,7 @@ public class EntityCommanderSkeleton extends ElementsToomuchCommander.ModElement
 	public static final int ENTITYID = 1;
 	public static final int ENTITYID_RANGED = 2;
 	public EntityCommanderSkeleton(ElementsToomuchCommander instance) {
-		super(instance, 47);
+		super(instance, 1);
 	}
 
 	@Override

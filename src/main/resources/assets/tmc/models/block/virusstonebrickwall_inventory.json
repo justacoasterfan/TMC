@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "tmc:blocks/rus_tone_ricks",
+    "particle": "tmc:blocks/rus_tone_ricks"
+  }
+}

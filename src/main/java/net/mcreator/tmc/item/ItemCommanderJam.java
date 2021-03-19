@@ -20,7 +20,7 @@ public class ItemCommanderJam extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commanderjam")
 	public static final Item block = null;
 	public ItemCommanderJam(ElementsToomuchCommander instance) {
-		super(instance, 44);
+		super(instance, 26);
 	}
 
 	@Override

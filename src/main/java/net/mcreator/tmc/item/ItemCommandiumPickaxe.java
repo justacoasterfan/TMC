@@ -24,7 +24,7 @@ public class ItemCommandiumPickaxe extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commandiumpickaxe")
 	public static final Item block = null;
 	public ItemCommandiumPickaxe(ElementsToomuchCommander instance) {
-		super(instance, 32);
+		super(instance, 13);
 	}
 
 	@Override

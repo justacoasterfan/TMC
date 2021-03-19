@@ -14,7 +14,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureCommandiumFurnaceFuelBurnTime extends ElementsToomuchCommander.ModElement {
 	public ProcedureCommandiumFurnaceFuelBurnTime(ElementsToomuchCommander instance) {
-		super(instance, 85);
+		super(instance, 88);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

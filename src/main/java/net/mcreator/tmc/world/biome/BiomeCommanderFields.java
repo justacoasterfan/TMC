@@ -27,7 +27,7 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commanderfields")
 	public static final BiomeGenCustom biome = null;
 	public BiomeCommanderFields(ElementsToomuchCommander instance) {
-		super(instance, 49);
+		super(instance, 52);
 	}
 
 	@Override

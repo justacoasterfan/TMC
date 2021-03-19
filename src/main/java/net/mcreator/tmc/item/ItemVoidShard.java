@@ -24,7 +24,7 @@ public class ItemVoidShard extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:voidshard")
 	public static final Item block = null;
 	public ItemVoidShard(ElementsToomuchCommander instance) {
-		super(instance, 26);
+		super(instance, 44);
 	}
 
 	@Override

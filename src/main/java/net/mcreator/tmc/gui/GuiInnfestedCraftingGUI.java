@@ -39,7 +39,7 @@ public class GuiInnfestedCraftingGUI extends ElementsToomuchCommander.ModElement
 	public static int GUIID = 2;
 	public static HashMap guistate = new HashMap();
 	public GuiInnfestedCraftingGUI(ElementsToomuchCommander instance) {
-		super(instance, 90);
+		super(instance, 93);
 	}
 
 	@Override

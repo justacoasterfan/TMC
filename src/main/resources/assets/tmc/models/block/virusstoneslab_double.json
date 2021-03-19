@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tmc:blocks/irus_tone",
+    "particle": "tmc:blocks/irus_tone"
+  }
+}

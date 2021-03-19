@@ -7,7 +7,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureCommandiumFurnaceUpdateTick extends ElementsToomuchCommander.ModElement {
 	public ProcedureCommandiumFurnaceUpdateTick(ElementsToomuchCommander instance) {
-		super(instance, 83);
+		super(instance, 86);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -14,7 +14,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureInfestedCraftingTableUpdateTick extends ElementsToomuchCommander.ModElement {
 	public ProcedureInfestedCraftingTableUpdateTick(ElementsToomuchCommander instance) {
-		super(instance, 88);
+		super(instance, 91);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

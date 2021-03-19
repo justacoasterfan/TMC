@@ -13,7 +13,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class RecipeLeamiumSmelting extends ElementsToomuchCommander.ModElement {
 	public RecipeLeamiumSmelting(ElementsToomuchCommander instance) {
-		super(instance, 50);
+		super(instance, 53);
 	}
 
 	@Override

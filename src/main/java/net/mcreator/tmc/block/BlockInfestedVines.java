@@ -38,7 +38,7 @@ public class BlockInfestedVines extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:infestedvines")
 	public static final Block block = null;
 	public BlockInfestedVines(ElementsToomuchCommander instance) {
-		super(instance, 98);
+		super(instance, 50);
 	}
 
 	@Override

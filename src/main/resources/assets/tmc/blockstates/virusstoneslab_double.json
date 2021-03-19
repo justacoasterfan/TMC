@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "tmc:virusstoneslab_double"
+    }
+  }
+}

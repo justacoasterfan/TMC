@@ -29,7 +29,7 @@ public class ItemVirusSword extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:virussword")
 	public static final Item block = null;
 	public ItemVirusSword(ElementsToomuchCommander instance) {
-		super(instance, 41);
+		super(instance, 47);
 	}
 
 	@Override

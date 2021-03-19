@@ -43,7 +43,7 @@ public class EntityCommanderBoss extends ElementsToomuchCommander.ModElement {
 	public static final int ENTITYID = 5;
 	public static final int ENTITYID_RANGED = 6;
 	public EntityCommanderBoss(ElementsToomuchCommander instance) {
-		super(instance, 46);
+		super(instance, 31);
 	}
 
 	@Override

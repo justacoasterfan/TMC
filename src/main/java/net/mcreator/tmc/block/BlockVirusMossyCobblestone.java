@@ -22,7 +22,7 @@ public class BlockVirusMossyCobblestone extends ElementsToomuchCommander.ModElem
 	@GameRegistry.ObjectHolder("tmc:virusmossycobblestone")
 	public static final Block block = null;
 	public BlockVirusMossyCobblestone(ElementsToomuchCommander instance) {
-		super(instance, 13);
+		super(instance, 14);
 	}
 
 	@Override
