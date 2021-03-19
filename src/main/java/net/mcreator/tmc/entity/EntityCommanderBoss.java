@@ -1,12 +1,47 @@
 
 package net.mcreator.tmc.entity;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.EntityEntryBuilder;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
+
+import net.minecraft.world.biome.Biome;
+import net.minecraft.world.World;
+import net.minecraft.world.BossInfoServer;
+import net.minecraft.world.BossInfo;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.DamageSource;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.entity.monster.EntityIronGolem;
+import net.minecraft.entity.ai.EntityAIWander;
+import net.minecraft.entity.ai.EntityAISwimming;
+import net.minecraft.entity.ai.EntityAILookIdle;
+import net.minecraft.entity.ai.EntityAILeapAtTarget;
+import net.minecraft.entity.ai.EntityAIHurtByTarget;
+import net.minecraft.entity.ai.EntityAIAttackMelee;
+import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.EnumCreatureAttribute;
+import net.minecraft.entity.Entity;
+import net.minecraft.client.renderer.entity.RenderBiped;
+import net.minecraft.client.model.ModelBiped;
+
+import net.mcreator.tmc.item.ItemCommandiumSword;
+import net.mcreator.tmc.item.ItemCommandiumArmorArmor;
+import net.mcreator.tmc.item.ItemCommanderJam;
+import net.mcreator.tmc.ElementsToomuchCommander;
+
+import java.util.Iterator;
+import java.util.ArrayList;
+
 @ElementsToomuchCommander.ModElement.Tag
 public class EntityCommanderBoss extends ElementsToomuchCommander.ModElement {
-
 	public static final int ENTITYID = 5;
 	public static final int ENTITYID_RANGED = 6;
-
 	public EntityCommanderBoss(ElementsToomuchCommander instance) {
 		super(instance, 31);
 	}
@@ -42,39 +77,31 @@ public class EntityCommanderBoss extends ElementsToomuchCommander.ModElement {
 			});
 			return customRender;
 		});
-
 	}
-
 	public static class EntityCustom extends EntityIronGolem {
-
 		public EntityCustom(World world) {
 			super(world);
 			setSize(0.6f, 1.8f);
 			experienceValue = 300;
 			this.isImmuneToFire = true;
 			setNoAI(!true);
-
 			enablePersistence();
-
 			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND, new ItemStack(ItemCommandiumSword.block, (int) (1)));
 			this.setItemStackToSlot(EntityEquipmentSlot.HEAD, new ItemStack(ItemCommandiumArmorArmor.helmet, (int) (1)));
 			this.setItemStackToSlot(EntityEquipmentSlot.CHEST, new ItemStack(ItemCommandiumArmorArmor.body, (int) (1)));
 			this.setItemStackToSlot(EntityEquipmentSlot.LEGS, new ItemStack(ItemCommandiumArmorArmor.legs, (int) (1)));
 			this.setItemStackToSlot(EntityEquipmentSlot.FEET, new ItemStack(ItemCommandiumArmorArmor.boots, (int) (1)));
-
 		}
 
 		@Override
 		protected void initEntityAI() {
 			super.initEntityAI();
-
 			this.tasks.addTask(1, new EntityAIWander(this, 1));
 			this.tasks.addTask(2, new EntityAILookIdle(this));
 			this.tasks.addTask(3, new EntityAISwimming(this));
 			this.tasks.addTask(4, new EntityAILeapAtTarget(this, (float) 0.8));
 			this.targetTasks.addTask(5, new EntityAIHurtByTarget(this, false));
 			this.tasks.addTask(6, new EntityAIAttackMelee(this, 1.2, true));
-
 		}
 
 		@Override
@@ -124,7 +151,6 @@ public class EntityCommanderBoss extends ElementsToomuchCommander.ModElement {
 		@Override
 		protected void applyEntityAttributes() {
 			super.applyEntityAttributes();
-
 			if (this.getEntityAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(20D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
@@ -133,16 +159,13 @@ public class EntityCommanderBoss extends ElementsToomuchCommander.ModElement {
 				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(300D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(20D);
-
 		}
 
 		@Override
 		public boolean isNonBoss() {
 			return false;
 		}
-
 		private final BossInfoServer bossInfo = new BossInfoServer(this.getDisplayName(), BossInfo.Color.GREEN, BossInfo.Overlay.PROGRESS);
-
 		@Override
 		public void addTrackingPlayer(EntityPlayerMP player) {
 			super.addTrackingPlayer(player);
@@ -158,10 +181,7 @@ public class EntityCommanderBoss extends ElementsToomuchCommander.ModElement {
 		@Override
 		public void onUpdate() {
 			super.onUpdate();
-
 			this.bossInfo.setPercent(this.getHealth() / this.getMaxHealth());
 		}
-
 	}
-
 }
