@@ -10,11 +10,9 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.chunk.IChunkProvider;
-import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.NonNullList;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
@@ -26,6 +24,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.tmc.world.WorldDreieich;
 import net.mcreator.tmc.item.ItemCommandium;
 import net.mcreator.tmc.creativetab.TabTooMuchCommander;
 import net.mcreator.tmc.ElementsToomuchCommander;
@@ -55,25 +54,21 @@ public class BlockCommandiumOre extends ElementsToomuchCommander.ModElement {
 	@Override
 	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
 		boolean dimensionCriteria = false;
-		if (dimID == 0)
+		if (dimID == WorldDreieich.DIMID)
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		boolean biomeCriteria = false;
-		Biome biome = world.getBiome(new BlockPos(chunkX, 128, chunkZ));
-		if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("tmc:commanderfields")))
-			biomeCriteria = true;
-		if (!biomeCriteria)
-			return;
-		for (int i = 0; i < 1; i++) {
+		for (int i = 0; i < 2; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(16) + 0;
+			int y = random.nextInt(256) + 0;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 3, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 5, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;
 					if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
+						blockCriteria = true;
+					if (blockAt.getBlock() == BlockVirusStone.block.getDefaultState().getBlock())
 						blockCriteria = true;
 					return blockCriteria;
 				}

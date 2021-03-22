@@ -17,6 +17,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.Block;
 
 import net.mcreator.tmc.entity.EntityCommanderSkeleton;
+import net.mcreator.tmc.block.BlockVirusGrassBlock;
 import net.mcreator.tmc.block.BlockInfestedLog;
 import net.mcreator.tmc.ElementsToomuchCommander;
 
@@ -43,7 +44,7 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 			super(new Biome.BiomeProperties("Commander Fields").setRainfall(0.5F).setBaseHeight(0.1F).setWaterColor(-16751104)
 					.setHeightVariation(0.2F).setTemperature(0.5F));
 			setRegistryName("commanderfields");
-			topBlock = Blocks.GRASS.getDefaultState();
+			topBlock = BlockVirusGrassBlock.block.getDefaultState();
 			fillerBlock = Blocks.DIRT.getStateFromMeta(0);
 			decorator.generateFalls = true;
 			decorator.treesPerChunk = 3;
@@ -120,8 +121,9 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 				} else {
 					Block ground = world.getBlockState(position.add(0, -1, 0)).getBlock();
 					Block ground2 = world.getBlockState(position.add(0, -2, 0)).getBlock();
-					if (!((ground == Blocks.GRASS.getDefaultState().getBlock() || ground == Blocks.DIRT.getStateFromMeta(0).getBlock())
-							&& (ground2 == Blocks.GRASS.getDefaultState().getBlock() || ground2 == Blocks.DIRT.getStateFromMeta(0).getBlock())))
+					if (!((ground == BlockVirusGrassBlock.block.getDefaultState().getBlock() || ground == Blocks.DIRT.getStateFromMeta(0).getBlock())
+							&& (ground2 == BlockVirusGrassBlock.block.getDefaultState().getBlock()
+									|| ground2 == Blocks.DIRT.getStateFromMeta(0).getBlock())))
 						return false;
 					IBlockState state = world.getBlockState(position.down());
 					if (position.getY() < world.getHeight() - height - 1) {
@@ -220,7 +222,8 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 		@Override
 		protected boolean canGrowInto(Block blockType) {
 			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == BlockInfestedLog.block.getDefaultState().getBlock()
-					|| blockType == Blocks.LEAVES.getStateFromMeta(3).getBlock() || blockType == Blocks.GRASS.getDefaultState().getBlock()
+					|| blockType == Blocks.LEAVES.getStateFromMeta(3).getBlock()
+					|| blockType == BlockVirusGrassBlock.block.getDefaultState().getBlock()
 					|| blockType == Blocks.DIRT.getStateFromMeta(0).getBlock();
 		}
 

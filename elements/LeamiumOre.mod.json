@@ -84,6 +84,9 @@
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "CUSTOM:VirusStone"
       }
     ],
     "frequencyPerChunks": 15,

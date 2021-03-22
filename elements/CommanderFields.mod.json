@@ -4,7 +4,7 @@
   "definition": {
     "name": "Commander Fields",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "CUSTOM:VirusGrassBlock"
     },
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
@@ -54,7 +54,7 @@
     "baseHeight": 0.1,
     "heightVariation": 0.19999999999999998,
     "spawnBiome": false,
-    "biomeWeight": 10,
+    "biomeWeight": 30,
     "biomeType": "WARM",
     "biomeCategory": "NONE",
     "parent": {
