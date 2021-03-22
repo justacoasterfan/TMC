@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "irus_word",
+    "texture": "irusschwert",
     "customModelName": "Normal",
     "name": "Virus Sword",
     "creativeTab": {
@@ -14,10 +14,17 @@
     "efficiency": 4.0,
     "attackSpeed": 0.7,
     "enchantability": 45,
-    "damageVsEntity": 23.5,
-    "usageCount": 5555,
+    "damageVsEntity": 24.0,
+    "usageCount": 7000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:VoidShard"
+      }
+    ],
+    "onEntityHitWith": {
+      "name": "VirusSwordMobIsHitWithTool"
+    }
   }
 }

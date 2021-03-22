@@ -21,6 +21,6 @@
     "specialInfo": [
       "Used to craft a Virus Core"
     ],
-    "hasGlow": false
+    "hasGlow": true
   }
 }

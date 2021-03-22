@@ -1271,6 +1271,30 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "VirusSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnterDreieich",
+      "type": "achievement",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1288,8 +1312,8 @@
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
       "tile.viruscobblestonewall.name": "Virus Cobblestone Wall",
-      "item.commanderjam.name": "Commander Jam",
       "tile.commandiumore.name": "Commandium Ore",
+      "item.commanderjam.name": "Commander Jam",
       "item.bunkerradar.name": "Bunker Radar",
       "tile.virusstonebrickwall.name": "Virus Stone Brick Wall",
       "item.viruscore.name": "Virus Core",
@@ -1320,6 +1344,7 @@
       "tile.commanderlight.name": "Commander Light",
       "item.leamiumarmorlegs.name": "Leamium Leggings",
       "item.commandiumarmorarmorbody.name": "Commandium Chestplate",
+      "advancements.enterdreieich.descr": "Enter Dreieich",
       "itemGroup.tabtoomuchcommander": "Too Much Commander",
       "item.leamiumarmorboots.name": "Leamium Boots",
       "tile.commanderboneblock.name": "Commander Bone Block",
@@ -1355,6 +1380,7 @@
       "item.leamiumhoe.name": "Leamium Hoe",
       "tile.viruscarvedstonebrick.name": "Virus CarvedStone Brick",
       "tile.virusmossycobblestone.name": "Virus Mossy Cobblestone",
+      "advancements.enterdreieich.title": "Neighbourhood",
       "item.commandiumarmorarmorboots.name": "Commandium Boots"
     }
   },
