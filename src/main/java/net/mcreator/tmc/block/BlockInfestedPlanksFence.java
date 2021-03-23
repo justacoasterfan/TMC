@@ -24,7 +24,7 @@ public class BlockInfestedPlanksFence extends ElementsToomuchCommander.ModElemen
 	@GameRegistry.ObjectHolder("tmc:infestedplanksfence")
 	public static final Block block = null;
 	public BlockInfestedPlanksFence(ElementsToomuchCommander instance) {
-		super(instance, 60);
+		super(instance, 27);
 	}
 
 	@Override

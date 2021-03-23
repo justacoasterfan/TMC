@@ -28,7 +28,7 @@ public class ItemCommandiumArmorArmor extends ElementsToomuchCommander.ModElemen
 	@GameRegistry.ObjectHolder("tmc:commandiumarmorarmorboots")
 	public static final Item boots = null;
 	public ItemCommandiumArmorArmor(ElementsToomuchCommander instance) {
-		super(instance, 19);
+		super(instance, 40);
 	}
 
 	@Override

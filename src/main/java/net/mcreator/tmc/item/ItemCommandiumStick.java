@@ -20,7 +20,7 @@ public class ItemCommandiumStick extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commandiumstick")
 	public static final Item block = null;
 	public ItemCommandiumStick(ElementsToomuchCommander instance) {
-		super(instance, 12);
+		super(instance, 41);
 	}
 
 	@Override

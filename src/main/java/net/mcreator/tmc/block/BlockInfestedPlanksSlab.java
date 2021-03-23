@@ -37,7 +37,7 @@ public class BlockInfestedPlanksSlab extends ElementsToomuchCommander.ModElement
 	@GameRegistry.ObjectHolder("tmc:infestedplanksslab_double")
 	public static final Block block_slab_double = null;
 	public BlockInfestedPlanksSlab(ElementsToomuchCommander instance) {
-		super(instance, 59);
+		super(instance, 25);
 	}
 
 	@Override

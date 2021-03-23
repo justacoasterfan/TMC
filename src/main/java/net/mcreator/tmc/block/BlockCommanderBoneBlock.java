@@ -31,7 +31,7 @@ public class BlockCommanderBoneBlock extends ElementsToomuchCommander.ModElement
 	@GameRegistry.ObjectHolder("tmc:commanderboneblock")
 	public static final Block block = null;
 	public BlockCommanderBoneBlock(ElementsToomuchCommander instance) {
-		super(instance, 6);
+		super(instance, 44);
 	}
 
 	@Override

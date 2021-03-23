@@ -29,7 +29,7 @@ public class ItemLeamiumSword extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:leamiumsword")
 	public static final Item block = null;
 	public ItemLeamiumSword(ElementsToomuchCommander instance) {
-		super(instance, 22);
+		super(instance, 28);
 	}
 
 	@Override
