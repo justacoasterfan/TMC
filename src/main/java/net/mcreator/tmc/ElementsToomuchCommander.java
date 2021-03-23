@@ -35,7 +35,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
 import net.mcreator.tmc.gui.GuiVirusChest;
-import net.mcreator.tmc.gui.GuiInnfestedCraftingGUI;
 import net.mcreator.tmc.gui.GuiCommandiumFurnace;
 
 import java.util.function.Supplier;

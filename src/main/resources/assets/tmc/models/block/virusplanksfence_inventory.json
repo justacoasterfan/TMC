@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_inventory",
   "textures": {
-    "texture": "tmc:blocks/irus_lanks",
-    "particle": "tmc:blocks/irus_lanks"
+    "texture": "tmc:blocks/infestedplanks",
+    "particle": "tmc:blocks/infestedplanks"
   }
 }
