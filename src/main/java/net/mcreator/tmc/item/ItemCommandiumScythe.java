@@ -24,7 +24,7 @@ public class ItemCommandiumScythe extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commandiumscythe")
 	public static final Item block = null;
 	public ItemCommandiumScythe(ElementsToomuchCommander instance) {
-		super(instance, 37);
+		super(instance, 41);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class ItemLeamiumArmor extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:leamiumarmorboots")
 	public static final Item boots = null;
 	public ItemLeamiumArmor(ElementsToomuchCommander instance) {
-		super(instance, 39);
+		super(instance, 43);
 	}
 
 	@Override

@@ -8,7 +8,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureVirusSwordMobIsHitWithTool extends ElementsToomuchCommander.ModElement {
 	public ProcedureVirusSwordMobIsHitWithTool(ElementsToomuchCommander instance) {
-		super(instance, 136);
+		super(instance, 140);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

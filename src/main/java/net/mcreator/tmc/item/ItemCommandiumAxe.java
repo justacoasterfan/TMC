@@ -27,7 +27,7 @@ public class ItemCommandiumAxe extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commandiumaxe")
 	public static final Item block = null;
 	public ItemCommandiumAxe(ElementsToomuchCommander instance) {
-		super(instance, 35);
+		super(instance, 39);
 	}
 
 	@Override

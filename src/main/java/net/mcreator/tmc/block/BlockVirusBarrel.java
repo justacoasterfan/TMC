@@ -50,7 +50,7 @@ public class BlockVirusBarrel extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:virusbarrel")
 	public static final Block block = null;
 	public BlockVirusBarrel(ElementsToomuchCommander instance) {
-		super(instance, 142);
+		super(instance, 51);
 	}
 
 	@Override

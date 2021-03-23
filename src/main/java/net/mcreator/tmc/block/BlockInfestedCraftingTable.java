@@ -40,6 +40,7 @@ import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.Block;
 
+import net.mcreator.tmc.gui.GuiInnfestedCraftingGUI;
 import net.mcreator.tmc.creativetab.TabTooMuchCommander;
 import net.mcreator.tmc.ToomuchCommander;
 import net.mcreator.tmc.ElementsToomuchCommander;

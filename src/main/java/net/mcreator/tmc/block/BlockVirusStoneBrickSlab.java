@@ -37,7 +37,7 @@ public class BlockVirusStoneBrickSlab extends ElementsToomuchCommander.ModElemen
 	@GameRegistry.ObjectHolder("tmc:virusstonebrickslab_double")
 	public static final Block block_slab_double = null;
 	public BlockVirusStoneBrickSlab(ElementsToomuchCommander instance) {
-		super(instance, 9);
+		super(instance, 10);
 	}
 
 	@Override

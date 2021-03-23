@@ -79,7 +79,7 @@ public class WorldDreieich extends ElementsToomuchCommander.ModElement {
 	public static final BlockCustomPortal portal = null;
 	public static DimensionType dtype;
 	public WorldDreieich(ElementsToomuchCommander instance) {
-		super(instance, 55);
+		super(instance, 60);
 	}
 
 	@Override

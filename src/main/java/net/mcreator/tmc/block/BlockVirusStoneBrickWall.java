@@ -27,7 +27,7 @@ public class BlockVirusStoneBrickWall extends ElementsToomuchCommander.ModElemen
 	@GameRegistry.ObjectHolder("tmc:virusstonebrickwall")
 	public static final Block block = null;
 	public BlockVirusStoneBrickWall(ElementsToomuchCommander instance) {
-		super(instance, 23);
+		super(instance, 24);
 	}
 
 	@Override

@@ -31,7 +31,7 @@ public class BlockVirusLog extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:viruslog")
 	public static final Block block = null;
 	public BlockVirusLog(ElementsToomuchCommander instance) {
-		super(instance, 7);
+		super(instance, 8);
 	}
 
 	@Override

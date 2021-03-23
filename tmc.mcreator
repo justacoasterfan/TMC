@@ -1,8 +1,8 @@
 {
   "id_map": {
+    "GUI": 3,
     "ENTITY": 8,
-    "DIMENSION": 1,
-    "GUI": 3
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -543,7 +543,7 @@
       "name": "InfestedCraftingTable",
       "type": "block",
       "sortid": 52,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
@@ -1083,7 +1083,7 @@
     {
       "name": "VirusCobblestoneStairsRecipeFlipped",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1091,7 +1091,7 @@
     {
       "name": "VirusCobblestoneWallRecipeBottom",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1099,7 +1099,7 @@
     {
       "name": "VirusStoneBrickStairsRecipeFlipped",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1107,7 +1107,7 @@
     {
       "name": "VirusStoneSlabRecipeRow3",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1115,7 +1115,7 @@
     {
       "name": "InfestedPlanksSticks",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1123,7 +1123,7 @@
     {
       "name": "VirusStoneSlabRecipeRow2",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1131,7 +1131,7 @@
     {
       "name": "VirusCobblestoneWallMossyRecipeBottom",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1139,7 +1139,7 @@
     {
       "name": "VirusStoneBrickSlabRecipeRow3",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1147,7 +1147,7 @@
     {
       "name": "VirusCobblestoneStairsRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1155,7 +1155,7 @@
     {
       "name": "VirusCobblestoneWallMossyRecipeTop",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1163,7 +1163,7 @@
     {
       "name": "VirusStoneSlabRecipeRow1",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1171,7 +1171,7 @@
     {
       "name": "VirusStoneBrickSlabRecipeRow1",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1179,7 +1179,7 @@
     {
       "name": "VirusStoneStairsRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1187,7 +1187,7 @@
     {
       "name": "VirusStoneBrickSlabRecipeRow2",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1195,7 +1195,7 @@
     {
       "name": "VirusStoneBrickChiseledRecipe",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1203,7 +1203,7 @@
     {
       "name": "VirusStoneBrickWallRecipeTop",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1211,7 +1211,7 @@
     {
       "name": "VirusStoneBrickStairsRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1219,7 +1219,7 @@
     {
       "name": "VirusStoneStarsRecipeFlipped",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1227,7 +1227,7 @@
     {
       "name": "VirusStoneBrickWallRecipeBottom",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1235,7 +1235,7 @@
     {
       "name": "VirusCobblestoneSlabRecipeRow2",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1243,7 +1243,7 @@
     {
       "name": "VirusCobblestoneWallRecipeTop",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1251,7 +1251,7 @@
     {
       "name": "VirusCobblestoneSlabRecipeRow1",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1259,7 +1259,7 @@
     {
       "name": "VirusCobblestoneWallMossyRecipeStoneMoss",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1267,7 +1267,7 @@
     {
       "name": "VirusCobblestoneSlabRecipeRow3",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1275,7 +1275,7 @@
     {
       "name": "VirusSwordMobIsHitWithTool",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1323,7 +1323,7 @@
     {
       "name": "VirusChest",
       "type": "gui",
-      "sortid": 142,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1333,7 +1333,7 @@
     {
       "name": "VirusBarrelOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1373,7 +1373,7 @@
     {
       "name": "VirusPlanksSticks",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1394,8 +1394,8 @@
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
       "tile.viruscobblestonewall.name": "Virus Cobblestone Wall",
-      "tile.commandiumore.name": "Commandium Ore",
       "item.commanderjam.name": "Commander Jam",
+      "tile.commandiumore.name": "Commandium Ore",
       "item.bunkerradar.name": "Bunker Radar",
       "tile.virusstonebrickwall.name": "Virus Stone Brick Wall",
       "item.viruscore.name": "Virus Core",

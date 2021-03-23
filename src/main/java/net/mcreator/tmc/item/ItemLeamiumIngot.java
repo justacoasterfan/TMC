@@ -20,7 +20,7 @@ public class ItemLeamiumIngot extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:leamiumingot")
 	public static final Item block = null;
 	public ItemLeamiumIngot(ElementsToomuchCommander instance) {
-		super(instance, 51);
+		super(instance, 56);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class EntityCommanderBlaze extends ElementsToomuchCommander.ModElement {
 	public static final int ENTITYID = 7;
 	public static final int ENTITYID_RANGED = 8;
 	public EntityCommanderBlaze(ElementsToomuchCommander instance) {
-		super(instance, 61);
+		super(instance, 66);
 	}
 
 	@Override
