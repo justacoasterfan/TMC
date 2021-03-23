@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tmc:blocks/irusarrelottom",
+    "up": "tmc:blocks/irusarrelop",
+    "north": "tmc:blocks/irusarrelinished",
+    "east": "tmc:blocks/irusarrelinished",
+    "south": "tmc:blocks/irusarrelinished",
+    "west": "tmc:blocks/irusarrelinished",
+    "particle": "tmc:blocks/irusarrelottom"
+  }
+}
