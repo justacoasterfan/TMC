@@ -24,6 +24,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
+import net.mcreator.tmc.procedure.ProcedureInfestedCraftingRecipes;
 import net.mcreator.tmc.ToomuchCommander;
 import net.mcreator.tmc.ElementsToomuchCommander;
 
@@ -58,89 +59,73 @@ public class GuiVirusChest extends ElementsToomuchCommander.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 37);
+			this.internal = new InventoryBasic("", true, 26);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 8, 8) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 8, 17) {
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 26, 8) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 26, 17) {
 			}));
-			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 44, 8) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 44, 17) {
 			}));
-			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 62, 8) {
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 62, 17) {
 			}));
-			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 80, 8) {
+			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 80, 17) {
 			}));
-			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 98, 8) {
+			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 8, 35) {
 			}));
-			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 116, 8) {
+			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 26, 35) {
 			}));
-			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 134, 8) {
+			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 44, 35) {
 			}));
-			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 152, 8) {
+			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 62, 35) {
 			}));
-			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 8, 26) {
+			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 80, 35) {
 			}));
-			this.customSlots.put(11, this.addSlotToContainer(new Slot(internal, 11, 26, 26) {
+			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 8, 53) {
 			}));
-			this.customSlots.put(12, this.addSlotToContainer(new Slot(internal, 12, 44, 26) {
+			this.customSlots.put(15, this.addSlotToContainer(new Slot(internal, 15, 8, 71) {
 			}));
-			this.customSlots.put(13, this.addSlotToContainer(new Slot(internal, 13, 62, 26) {
+			this.customSlots.put(20, this.addSlotToContainer(new Slot(internal, 20, 8, 89) {
 			}));
-			this.customSlots.put(14, this.addSlotToContainer(new Slot(internal, 14, 80, 26) {
+			this.customSlots.put(11, this.addSlotToContainer(new Slot(internal, 11, 26, 53) {
 			}));
-			this.customSlots.put(15, this.addSlotToContainer(new Slot(internal, 15, 98, 26) {
+			this.customSlots.put(12, this.addSlotToContainer(new Slot(internal, 12, 44, 53) {
 			}));
-			this.customSlots.put(16, this.addSlotToContainer(new Slot(internal, 16, 116, 26) {
+			this.customSlots.put(13, this.addSlotToContainer(new Slot(internal, 13, 62, 53) {
 			}));
-			this.customSlots.put(17, this.addSlotToContainer(new Slot(internal, 17, 134, 26) {
+			this.customSlots.put(14, this.addSlotToContainer(new Slot(internal, 14, 80, 53) {
 			}));
-			this.customSlots.put(18, this.addSlotToContainer(new Slot(internal, 18, 152, 26) {
+			this.customSlots.put(16, this.addSlotToContainer(new Slot(internal, 16, 26, 71) {
 			}));
-			this.customSlots.put(19, this.addSlotToContainer(new Slot(internal, 19, 8, 44) {
+			this.customSlots.put(17, this.addSlotToContainer(new Slot(internal, 17, 44, 71) {
 			}));
-			this.customSlots.put(20, this.addSlotToContainer(new Slot(internal, 20, 26, 44) {
+			this.customSlots.put(18, this.addSlotToContainer(new Slot(internal, 18, 62, 71) {
 			}));
-			this.customSlots.put(21, this.addSlotToContainer(new Slot(internal, 21, 44, 44) {
+			this.customSlots.put(19, this.addSlotToContainer(new Slot(internal, 19, 80, 71) {
 			}));
-			this.customSlots.put(22, this.addSlotToContainer(new Slot(internal, 22, 62, 44) {
+			this.customSlots.put(21, this.addSlotToContainer(new Slot(internal, 21, 26, 89) {
 			}));
-			this.customSlots.put(23, this.addSlotToContainer(new Slot(internal, 23, 80, 44) {
+			this.customSlots.put(22, this.addSlotToContainer(new Slot(internal, 22, 44, 89) {
 			}));
-			this.customSlots.put(24, this.addSlotToContainer(new Slot(internal, 24, 98, 44) {
+			this.customSlots.put(23, this.addSlotToContainer(new Slot(internal, 23, 62, 89) {
 			}));
-			this.customSlots.put(25, this.addSlotToContainer(new Slot(internal, 25, 116, 44) {
+			this.customSlots.put(24, this.addSlotToContainer(new Slot(internal, 24, 80, 89) {
 			}));
-			this.customSlots.put(26, this.addSlotToContainer(new Slot(internal, 26, 134, 44) {
-			}));
-			this.customSlots.put(27, this.addSlotToContainer(new Slot(internal, 27, 152, 44) {
-			}));
-			this.customSlots.put(28, this.addSlotToContainer(new Slot(internal, 28, 8, 62) {
-			}));
-			this.customSlots.put(29, this.addSlotToContainer(new Slot(internal, 29, 26, 62) {
-			}));
-			this.customSlots.put(30, this.addSlotToContainer(new Slot(internal, 30, 44, 62) {
-			}));
-			this.customSlots.put(31, this.addSlotToContainer(new Slot(internal, 31, 62, 62) {
-			}));
-			this.customSlots.put(32, this.addSlotToContainer(new Slot(internal, 32, 80, 62) {
-			}));
-			this.customSlots.put(33, this.addSlotToContainer(new Slot(internal, 33, 98, 62) {
-			}));
-			this.customSlots.put(34, this.addSlotToContainer(new Slot(internal, 34, 116, 62) {
-			}));
-			this.customSlots.put(35, this.addSlotToContainer(new Slot(internal, 35, 134, 62) {
-			}));
-			this.customSlots.put(36, this.addSlotToContainer(new Slot(internal, 36, 152, 62) {
+			this.customSlots.put(25, this.addSlotToContainer(new Slot(internal, 25, 152, 53) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 0 + 8 + sj * 18, 5 + 84 + si * 18));
+					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 0 + 8 + sj * 18, 32 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlotToContainer(new Slot(player.inventory, si, 0 + 8 + si * 18, 5 + 142));
+				this.addSlotToContainer(new Slot(player.inventory, si, 0 + 8 + si * 18, 32 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -159,18 +144,18 @@ public class GuiVirusChest extends ElementsToomuchCommander.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 36) {
-					if (!this.mergeItemStack(itemstack1, 36, this.inventorySlots.size(), true)) {
+				if (index < 26) {
+					if (!this.mergeItemStack(itemstack1, 26, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 36, false)) {
-					if (index < 36 + 27) {
-						if (!this.mergeItemStack(itemstack1, 36 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 26, false)) {
+					if (index < 26 + 27) {
+						if (!this.mergeItemStack(itemstack1, 26 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 36, 36 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 26, 26 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -300,7 +285,7 @@ public class GuiVirusChest extends ElementsToomuchCommander.ModElement {
 			this.z = z;
 			this.entity = entity;
 			this.xSize = 176;
-			this.ySize = 175;
+			this.ySize = 229;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("tmc:textures/viruschest.png");
 		@Override
@@ -337,6 +322,7 @@ public class GuiVirusChest extends ElementsToomuchCommander.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
+			this.fontRenderer.drawString("Infested Crafting Table", 7, 7, -16777216);
 		}
 
 		@Override
@@ -349,9 +335,10 @@ public class GuiVirusChest extends ElementsToomuchCommander.ModElement {
 		public void initGui() {
 			super.initGui();
 			this.guiLeft = (this.width - 176) / 2;
-			this.guiTop = (this.height - 175) / 2;
+			this.guiTop = (this.height - 229) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
+			this.buttonList.add(new GuiButton(0, this.guiLeft + 98, this.guiTop + 52, 50, 20, "Craft"));
 		}
 
 		@Override
@@ -466,6 +453,16 @@ public class GuiVirusChest extends ElementsToomuchCommander.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureInfestedCraftingRecipes.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {

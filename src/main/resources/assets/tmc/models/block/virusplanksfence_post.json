@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "tmc:blocks/infestedplanks",
-    "particle": "tmc:blocks/infestedplanks"
+    "texture": "tmc:blocks/irus_lanks",
+    "particle": "tmc:blocks/irus_lanks"
   }
 }

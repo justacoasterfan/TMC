@@ -3,10 +3,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tmc:infestedplanks"
+      "item": "tmc:virusplanks"
     },
     {
-      "item": "tmc:infestedplanks"
+      "item": "tmc:virusplanks"
     }
   ],
   "result": {

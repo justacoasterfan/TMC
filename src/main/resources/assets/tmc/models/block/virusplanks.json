@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "tmc:blocks/infestedplanks",
-    "up": "tmc:blocks/infestedplanks",
-    "north": "tmc:blocks/infestedplanks",
-    "east": "tmc:blocks/infestedplanks",
-    "south": "tmc:blocks/infestedplanks",
-    "west": "tmc:blocks/infestedplanks",
-    "particle": "tmc:blocks/infestedplanks"
+    "all": "tmc:blocks/irus_lanks",
+    "particle": "tmc:blocks/irus_lanks"
   }
 }

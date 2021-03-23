@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "tmc:blocks/infestedplanks",
-    "particle": "tmc:blocks/infestedplanks"
+    "all": "tmc:blocks/irus_lanks",
+    "particle": "tmc:blocks/irus_lanks"
   }
 }
