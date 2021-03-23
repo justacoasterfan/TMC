@@ -63,6 +63,8 @@ public class BlockLeamiumOre extends ElementsToomuchCommander.ModElement {
 					IBlockState require;
 					if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 						blockCriteria = true;
+					if (blockAt.getBlock() == BlockVirusStone.block.getDefaultState().getBlock())
+						blockCriteria = true;
 					return blockCriteria;
 				}
 			})).generate(world, random, new BlockPos(x, y, z));

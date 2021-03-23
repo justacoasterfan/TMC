@@ -60,6 +60,7 @@ import net.minecraft.block.BlockFalling;
 import net.minecraft.block.Block;
 
 import net.mcreator.tmc.item.ItemDreieich;
+import net.mcreator.tmc.block.BlockVirusStone;
 import net.mcreator.tmc.block.BlockCommanderLight;
 import net.mcreator.tmc.ElementsToomuchCommander;
 
@@ -712,7 +713,7 @@ public class WorldDreieich extends ElementsToomuchCommander.ModElement {
 	}
 
 	public static class ChunkProviderModded implements IChunkGenerator {
-		private static final IBlockState STONE = Blocks.STONE.getStateFromMeta(0);
+		private static final IBlockState STONE = BlockVirusStone.block.getDefaultState();
 		private static final IBlockState AIR = Blocks.AIR.getDefaultState();
 		private static final int SEALEVEL = 63;
 		private final World world;

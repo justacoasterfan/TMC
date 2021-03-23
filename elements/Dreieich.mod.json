@@ -26,10 +26,10 @@
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:VirusStone"
     },
     "secondaryFillerBlock": {
-      "value": "Blocks.GRASS"
+      "value": "CUSTOM:VirusGrassBlock"
     },
     "tertiaryFillerBlock": {
       "value": ""
