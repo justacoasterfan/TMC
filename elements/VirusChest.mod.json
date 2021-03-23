@@ -4,9 +4,22 @@
   "definition": {
     "type": 1,
     "width": 352,
-    "height": 350,
+    "height": 457,
     "renderBgLayer": true,
     "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Infested Crafting Table",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Infested Crafting Table",
+          "x": 264,
+          "y": 24
+        }
+      },
       {
         "type": "inputslot",
         "data": {
@@ -16,7 +29,19 @@
           "id": 0,
           "name": "Slot #0",
           "x": 264,
-          "y": 78
+          "y": 42
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 300,
+          "y": 42
         }
       },
       {
@@ -27,8 +52,8 @@
           },
           "id": 2,
           "name": "Slot #2",
-          "x": 300,
-          "y": 78
+          "x": 336,
+          "y": 42
         }
       },
       {
@@ -39,8 +64,8 @@
           },
           "id": 3,
           "name": "Slot #3",
-          "x": 336,
-          "y": 78
+          "x": 372,
+          "y": 42
         }
       },
       {
@@ -51,8 +76,8 @@
           },
           "id": 4,
           "name": "Slot #4",
-          "x": 372,
-          "y": 78
+          "x": 408,
+          "y": 42
         }
       },
       {
@@ -63,7 +88,7 @@
           },
           "id": 5,
           "name": "Slot #5",
-          "x": 408,
+          "x": 264,
           "y": 78
         }
       },
@@ -75,7 +100,7 @@
           },
           "id": 6,
           "name": "Slot #6",
-          "x": 444,
+          "x": 300,
           "y": 78
         }
       },
@@ -87,7 +112,7 @@
           },
           "id": 7,
           "name": "Slot #7",
-          "x": 480,
+          "x": 336,
           "y": 78
         }
       },
@@ -99,7 +124,7 @@
           },
           "id": 8,
           "name": "Slot #8",
-          "x": 516,
+          "x": 372,
           "y": 78
         }
       },
@@ -111,7 +136,7 @@
           },
           "id": 9,
           "name": "Slot #9",
-          "x": 552,
+          "x": 408,
           "y": 78
         }
       },
@@ -125,6 +150,30 @@
           "name": "Slot #10",
           "x": 264,
           "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 15,
+          "name": "Slot #15",
+          "x": 264,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 20,
+          "name": "Slot #20",
+          "x": 264,
+          "y": 186
         }
       },
       {
@@ -181,22 +230,10 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 15,
-          "name": "Slot #15",
-          "x": 444,
-          "y": 114
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
           "id": 16,
           "name": "Slot #16",
-          "x": 480,
-          "y": 114
+          "x": 300,
+          "y": 150
         }
       },
       {
@@ -207,8 +244,8 @@
           },
           "id": 17,
           "name": "Slot #17",
-          "x": 516,
-          "y": 114
+          "x": 336,
+          "y": 150
         }
       },
       {
@@ -219,8 +256,8 @@
           },
           "id": 18,
           "name": "Slot #18",
-          "x": 552,
-          "y": 114
+          "x": 372,
+          "y": 150
         }
       },
       {
@@ -231,19 +268,7 @@
           },
           "id": 19,
           "name": "Slot #19",
-          "x": 264,
-          "y": 150
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 20,
-          "name": "Slot #20",
-          "x": 300,
+          "x": 408,
           "y": 150
         }
       },
@@ -255,102 +280,6 @@
           },
           "id": 21,
           "name": "Slot #21",
-          "x": 336,
-          "y": 150
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 22,
-          "name": "Slot #22",
-          "x": 372,
-          "y": 150
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 23,
-          "name": "Slot #23",
-          "x": 408,
-          "y": 150
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 24,
-          "name": "Slot #24",
-          "x": 444,
-          "y": 150
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 25,
-          "name": "Slot #25",
-          "x": 480,
-          "y": 150
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 26,
-          "name": "Slot #26",
-          "x": 516,
-          "y": 150
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 27,
-          "name": "Slot #27",
-          "x": 552,
-          "y": 150
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 28,
-          "name": "Slot #28",
-          "x": 264,
-          "y": 186
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 29,
-          "name": "Slot #29",
           "x": 300,
           "y": 186
         }
@@ -361,8 +290,8 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 30,
-          "name": "Slot #30",
+          "id": 22,
+          "name": "Slot #22",
           "x": 336,
           "y": 186
         }
@@ -373,8 +302,8 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 31,
-          "name": "Slot #31",
+          "id": 23,
+          "name": "Slot #23",
           "x": 372,
           "y": 186
         }
@@ -385,58 +314,33 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 32,
-          "name": "Slot #32",
+          "id": 24,
+          "name": "Slot #24",
           "x": 408,
           "y": 186
         }
       },
       {
-        "type": "inputslot",
+        "type": "outputslot",
         "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 33,
-          "name": "Slot #33",
-          "x": 444,
-          "y": 186
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 34,
-          "name": "Slot #34",
-          "x": 480,
-          "y": 186
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 35,
-          "name": "Slot #35",
-          "x": 516,
-          "y": 186
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 36,
-          "name": "Slot #36",
+          "id": 25,
+          "name": "Slot #25",
           "x": 552,
-          "y": 186
+          "y": 114
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Craft",
+          "onClick": {
+            "name": "InfestedCraftingRecipes"
+          },
+          "width": 100,
+          "height": 40,
+          "name": "Craft",
+          "x": 446,
+          "y": 114
         }
       }
     ]

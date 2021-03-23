@@ -1081,14 +1081,6 @@
       "ids": {}
     },
     {
-      "name": "EnterDreieich",
-      "type": "achievement",
-      "sortid": 116,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "VirusCobblestoneStairsRecipeFlipped",
       "type": "recipe",
       "sortid": 117,
@@ -1394,8 +1386,8 @@
       "tile.leamiumore.name": "Leamium Ore",
       "item.leamiumshovel.name": "Leamium Shovel",
       "tile.viruscobblestonewall.name": "Virus Cobblestone Wall",
-      "item.commanderjam.name": "Commander Jam",
       "tile.commandiumore.name": "Commandium Ore",
+      "item.commanderjam.name": "Commander Jam",
       "item.bunkerradar.name": "Bunker Radar",
       "tile.virusstonebrickwall.name": "Virus Stone Brick Wall",
       "item.viruscore.name": "Virus Core",
@@ -1427,7 +1419,6 @@
       "tile.commanderlight.name": "Commander Light",
       "item.leamiumarmorlegs.name": "Leamium Leggings",
       "item.commandiumarmorarmorbody.name": "Commandium Chestplate",
-      "advancements.enterdreieich.descr": "Enter Dreieich",
       "itemGroup.tabtoomuchcommander": "Too Much Commander",
       "item.leamiumarmorboots.name": "Leamium Boots",
       "tile.commanderboneblock.name": "Commander Bone Block",
@@ -1453,11 +1444,11 @@
       "item.commandiumshovel.name": "Commandium Shovel",
       "tile.virusdirt.name": "Virus Dirt",
       "tile.virusstonebrickslab.name": "Virus Stone Brick Slab",
-      "tile.virusplanksstairs.name": "Virus Wood Stairs",
+      "tile.virusplanksstairs.name": "Infested Wood Stairs",
       "item.commandium.name": "Commandium",
       "tile.virusstonebrick.name": "Virus Stone Brick",
       "entity.commanderboss.name": "Commander Boss",
-      "tile.virusplanksslab.name": "Virus Wood Slab",
+      "tile.virusplanksslab.name": "Infested Wood Slab",
       "tile.virusplanks.name": "Infested Planks",
       "tile.virusplanksfence.name": "Infested Fence",
       "item.commandiumarmorarmorlegs.name": "Commandium Leggings",
@@ -1467,7 +1458,6 @@
       "item.leamiumhoe.name": "Leamium Hoe",
       "tile.viruscarvedstonebrick.name": "Virus CarvedStone Brick",
       "tile.virusmossycobblestone.name": "Virus Mossy Cobblestone",
-      "advancements.enterdreieich.title": "Neighbourhood",
       "item.commandiumarmorarmorboots.name": "Commandium Boots"
     }
   },

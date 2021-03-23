@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "irus_lanks",
+    "texture": "infestedplanks",
     "textureTop": "infestedplanks",
     "textureLeft": "infestedplanks",
     "textureFront": "infestedplanks",
@@ -21,7 +21,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Virus Wood Stairs",
+    "name": "Infested Wood Stairs",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 3.0,
