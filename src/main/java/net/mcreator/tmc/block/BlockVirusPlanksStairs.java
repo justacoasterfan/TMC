@@ -10,43 +10,50 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockStairs;
 import net.minecraft.block.Block;
 
 import net.mcreator.tmc.creativetab.TabTooMuchCommander;
 import net.mcreator.tmc.ElementsToomuchCommander;
 
 @ElementsToomuchCommander.ModElement.Tag
-public class BlockInfestedPlanks extends ElementsToomuchCommander.ModElement {
-	@GameRegistry.ObjectHolder("tmc:infestedplanks")
+public class BlockVirusPlanksStairs extends ElementsToomuchCommander.ModElement {
+	@GameRegistry.ObjectHolder("tmc:virusplanksstairs")
 	public static final Block block = null;
-	public BlockInfestedPlanks(ElementsToomuchCommander instance) {
-		super(instance, 5);
+	public BlockVirusPlanksStairs(ElementsToomuchCommander instance) {
+		super(instance, 29);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("infestedplanks"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("virusplanksstairs"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:infestedplanks", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:virusplanksstairs", "inventory"));
 	}
-	public static class BlockCustom extends Block {
+	public static class BlockCustom extends BlockStairs {
 		public BlockCustom() {
-			super(Material.WOOD);
-			setUnlocalizedName("infestedplanks");
+			super(new Block(Material.WOOD).getDefaultState());
+			setUnlocalizedName("virusplanksstairs");
 			setSoundType(SoundType.WOOD);
 			setHarvestLevel("axe", 1);
 			setHardness(2F);
 			setResistance(3F);
 			setLightLevel(0F);
-			setLightOpacity(255);
+			setLightOpacity(0);
 			setCreativeTab(TabTooMuchCommander.tab);
+		}
+
+		@Override
+		public boolean isOpaqueCube(IBlockState state) {
+			return false;
 		}
 	}
 }

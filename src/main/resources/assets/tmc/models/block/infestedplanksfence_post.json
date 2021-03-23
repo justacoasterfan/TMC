@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "tmc:blocks/infestedplanks",
-    "particle": "tmc:blocks/infestedplanks"
-  }
-}

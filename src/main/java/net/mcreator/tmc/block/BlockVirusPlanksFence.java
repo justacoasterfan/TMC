@@ -20,29 +20,28 @@ import net.mcreator.tmc.creativetab.TabTooMuchCommander;
 import net.mcreator.tmc.ElementsToomuchCommander;
 
 @ElementsToomuchCommander.ModElement.Tag
-public class BlockInfestedPlanksFence extends ElementsToomuchCommander.ModElement {
-	@GameRegistry.ObjectHolder("tmc:infestedplanksfence")
+public class BlockVirusPlanksFence extends ElementsToomuchCommander.ModElement {
+	@GameRegistry.ObjectHolder("tmc:virusplanksfence")
 	public static final Block block = null;
-	public BlockInfestedPlanksFence(ElementsToomuchCommander instance) {
-		super(instance, 27);
+	public BlockVirusPlanksFence(ElementsToomuchCommander instance) {
+		super(instance, 31);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("infestedplanksfence"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("virusplanksfence"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("tmc:infestedplanksfence", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:virusplanksfence", "inventory"));
 	}
 	public static class BlockCustom extends BlockFence {
 		public BlockCustom() {
 			super(Material.WOOD, Material.WOOD.getMaterialMapColor());
-			setUnlocalizedName("infestedplanksfence");
+			setUnlocalizedName("virusplanksfence");
 			setSoundType(SoundType.WOOD);
 			setHarvestLevel("axe", 1);
 			setHardness(2F);

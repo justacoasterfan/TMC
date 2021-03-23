@@ -1,10 +1,10 @@
 {
   "variants": {
     "half=bottom,variant=default": {
-      "model": "tmc:infestedplanksslab"
+      "model": "tmc:virusplanksslab"
     },
     "half=top,variant=default": {
-      "model": "tmc:infestedplanksslab_top"
+      "model": "tmc:virusplanksslab_top"
     }
   }
 }

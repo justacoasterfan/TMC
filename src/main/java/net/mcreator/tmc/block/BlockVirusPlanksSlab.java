@@ -31,31 +31,31 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 import java.util.Random;
 
 @ElementsToomuchCommander.ModElement.Tag
-public class BlockInfestedPlanksSlab extends ElementsToomuchCommander.ModElement {
-	@GameRegistry.ObjectHolder("tmc:infestedplanksslab")
+public class BlockVirusPlanksSlab extends ElementsToomuchCommander.ModElement {
+	@GameRegistry.ObjectHolder("tmc:virusplanksslab")
 	public static final Block block = null;
-	@GameRegistry.ObjectHolder("tmc:infestedplanksslab_double")
+	@GameRegistry.ObjectHolder("tmc:virusplanksslab_double")
 	public static final Block block_slab_double = null;
-	public BlockInfestedPlanksSlab(ElementsToomuchCommander instance) {
-		super(instance, 25);
+	public BlockVirusPlanksSlab(ElementsToomuchCommander instance) {
+		super(instance, 27);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("infestedplanksslab"));
-		elements.blocks.add(() -> new BlockCustom.Double().setRegistryName("infestedplanksslab_double"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("virusplanksslab"));
+		elements.blocks.add(() -> new BlockCustom.Double().setRegistryName("virusplanksslab_double"));
 		elements.items.add(() -> new ItemSlab(block, (BlockSlab) block, (BlockSlab) block_slab_double).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:infestedplanksslab", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("tmc:virusplanksslab", "inventory"));
 	}
 	public static class BlockCustom extends BlockSlab {
 		public BlockCustom() {
 			super(Material.WOOD);
-			setUnlocalizedName("infestedplanksslab");
+			setUnlocalizedName("virusplanksslab");
 			setSoundType(SoundType.WOOD);
 			setHarvestLevel("axe", 1);
 			setHardness(2F);

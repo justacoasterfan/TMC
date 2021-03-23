@@ -1,7 +1,7 @@
 {
   "variants": {
     "variant=default": {
-      "model": "tmc:infestedplanksslab_double"
+      "model": "tmc:virusplanksslab_double"
     }
   }
 }

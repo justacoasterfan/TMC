@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "tmc:blocks/infestedplanks",
-    "top": "tmc:blocks/infestedplanks",
-    "side": "tmc:blocks/infestedplanks"
-  }
-}
