@@ -2,7 +2,7 @@
   "id_map": {
     "ENTITY": 8,
     "DIMENSION": 1,
-    "GUI": 2
+    "GUI": 3
   },
   "mod_elements": [
     {
@@ -1327,6 +1327,16 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "VirusChest",
+      "type": "gui",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      }
     }
   ],
   "variable_elements": [],
