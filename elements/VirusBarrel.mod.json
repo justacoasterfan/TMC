@@ -78,7 +78,7 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "onRightClicked": {
-      "name": "VirusBarrelOnBlockRightClicked"
+      "name": "VirusBarrelOnBlockRightClickedSound"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

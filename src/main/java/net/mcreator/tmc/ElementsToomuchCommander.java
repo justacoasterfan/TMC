@@ -35,6 +35,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
 import net.mcreator.tmc.gui.GuiVirusChest;
+import net.mcreator.tmc.gui.GuiVirusBarrel2;
 import net.mcreator.tmc.gui.GuiInnfestedCraftingGUI;
 import net.mcreator.tmc.gui.GuiCommandiumFurnace;
 
@@ -136,6 +137,8 @@ public class ElementsToomuchCommander implements IFuelHandler, IWorldGenerator {
 				return new GuiInnfestedCraftingGUI.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiVirusChest.GUIID)
 				return new GuiVirusChest.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiVirusBarrel2.GUIID)
+				return new GuiVirusBarrel2.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -147,6 +150,8 @@ public class ElementsToomuchCommander implements IFuelHandler, IWorldGenerator {
 				return new GuiInnfestedCraftingGUI.GuiWindow(world, x, y, z, player);
 			if (id == GuiVirusChest.GUIID)
 				return new GuiVirusChest.GuiWindow(world, x, y, z, player);
+			if (id == GuiVirusBarrel2.GUIID)
+				return new GuiVirusBarrel2.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

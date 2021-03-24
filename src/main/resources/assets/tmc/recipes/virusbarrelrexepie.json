@@ -1,0 +1,39 @@
+{
+  "group": "tmc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tmc:virusplanks"
+    },
+    "1": {
+      "item": "tmc:virusplanksslab"
+    },
+    "2": {
+      "item": "tmc:virusplanks"
+    },
+    "3": {
+      "item": "tmc:viruslog"
+    },
+    "5": {
+      "item": "tmc:viruslog"
+    },
+    "6": {
+      "item": "tmc:virusplanks"
+    },
+    "7": {
+      "item": "tmc:virusplanksslab"
+    },
+    "8": {
+      "item": "tmc:virusplanks"
+    }
+  },
+  "result": {
+    "item": "tmc:virusbarrel",
+    "count": 1
+  }
+}
