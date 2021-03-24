@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "tmc:virusplanksslab"
+    },
+    "half=top,variant=default": {
+      "model": "tmc:virusplanksslab_top"
+    }
+  }
+}

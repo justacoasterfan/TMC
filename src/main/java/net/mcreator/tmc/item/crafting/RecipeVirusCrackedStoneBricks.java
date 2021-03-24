@@ -13,7 +13,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class RecipeVirusCrackedStoneBricks extends ElementsToomuchCommander.ModElement {
 	public RecipeVirusCrackedStoneBricks(ElementsToomuchCommander instance) {
-		super(instance, 109);
+		super(instance, 114);
 	}
 
 	@Override

@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "tmc:virusbarrel"
+    },
+    "facing=south": {
+      "model": "tmc:virusbarrel"
+    },
+    "facing=north": {
+      "model": "tmc:virusbarrel"
+    },
+    "facing=east": {
+      "model": "tmc:virusbarrel",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "tmc:virusbarrel",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "tmc:virusbarrel",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "tmc:virusbarrel",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

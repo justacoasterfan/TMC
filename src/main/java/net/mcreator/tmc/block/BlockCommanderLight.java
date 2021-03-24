@@ -22,7 +22,7 @@ public class BlockCommanderLight extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commanderlight")
 	public static final Block block = null;
 	public BlockCommanderLight(ElementsToomuchCommander instance) {
-		super(instance, 30);
+		super(instance, 50);
 	}
 
 	@Override

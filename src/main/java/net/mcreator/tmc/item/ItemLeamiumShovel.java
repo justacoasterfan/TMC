@@ -24,7 +24,7 @@ public class ItemLeamiumShovel extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:leamiumshovel")
 	public static final Item block = null;
 	public ItemLeamiumShovel(ElementsToomuchCommander instance) {
-		super(instance, 23);
+		super(instance, 35);
 	}
 
 	@Override

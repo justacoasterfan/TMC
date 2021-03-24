@@ -38,7 +38,7 @@ public class BlockInfestedSapling extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:infestedsapling")
 	public static final Block block = null;
 	public BlockInfestedSapling(ElementsToomuchCommander instance) {
-		super(instance, 48);
+		super(instance, 64);
 	}
 
 	@Override

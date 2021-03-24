@@ -15,7 +15,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class ProcedureRawBonechopsFoodEaten extends ElementsToomuchCommander.ModElement {
 	public ProcedureRawBonechopsFoodEaten(ElementsToomuchCommander instance) {
-		super(instance, 76);
+		super(instance, 83);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

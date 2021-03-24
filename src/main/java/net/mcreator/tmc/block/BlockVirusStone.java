@@ -27,7 +27,7 @@ public class BlockVirusStone extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:virusstone")
 	public static final Block block = null;
 	public BlockVirusStone(ElementsToomuchCommander instance) {
-		super(instance, 44);
+		super(instance, 1);
 	}
 
 	@Override

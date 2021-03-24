@@ -24,7 +24,7 @@ public class ItemRawBonechops extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:rawbonechops")
 	public static final Item block = null;
 	public ItemRawBonechops(ElementsToomuchCommander instance) {
-		super(instance, 27);
+		super(instance, 58);
 	}
 
 	@Override

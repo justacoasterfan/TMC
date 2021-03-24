@@ -21,7 +21,7 @@ public class ItemCookedBonechops extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:cookedbonechops")
 	public static final Item block = null;
 	public ItemCookedBonechops(ElementsToomuchCommander instance) {
-		super(instance, 28);
+		super(instance, 59);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class BlockVirusCobblestoneWall extends ElementsToomuchCommander.ModEleme
 	@GameRegistry.ObjectHolder("tmc:viruscobblestonewall")
 	public static final Block block = null;
 	public BlockVirusCobblestoneWall(ElementsToomuchCommander instance) {
-		super(instance, 110);
+		super(instance, 23);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class BlockInfestedPlanksStairs extends ElementsToomuchCommander.ModEleme
 	@GameRegistry.ObjectHolder("tmc:infestedplanksstairs")
 	public static final Block block = null;
 	public BlockInfestedPlanksStairs(ElementsToomuchCommander instance) {
-		super(instance, 58);
+		super(instance, 28);
 	}
 
 	@Override

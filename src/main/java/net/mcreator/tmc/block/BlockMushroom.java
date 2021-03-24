@@ -38,7 +38,7 @@ public class BlockMushroom extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:mushroom")
 	public static final Block block = null;
 	public BlockMushroom(ElementsToomuchCommander instance) {
-		super(instance, 34);
+		super(instance, 54);
 	}
 
 	@Override

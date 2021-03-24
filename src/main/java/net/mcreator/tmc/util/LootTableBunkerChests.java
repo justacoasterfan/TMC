@@ -11,7 +11,7 @@ import net.mcreator.tmc.ElementsToomuchCommander;
 @ElementsToomuchCommander.ModElement.Tag
 public class LootTableBunkerChests extends ElementsToomuchCommander.ModElement {
 	public LootTableBunkerChests(ElementsToomuchCommander instance) {
-		super(instance, 105);
+		super(instance, 110);
 	}
 
 	@Override

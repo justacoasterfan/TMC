@@ -31,7 +31,7 @@ public class BlockLeamiumOre extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:leamiumore")
 	public static final Block block = null;
 	public BlockLeamiumOre(ElementsToomuchCommander instance) {
-		super(instance, 9);
+		super(instance, 14);
 	}
 
 	@Override

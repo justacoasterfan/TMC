@@ -24,7 +24,7 @@ public class ItemBunkerRadar extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:bunkerradar")
 	public static final Item block = null;
 	public ItemBunkerRadar(ElementsToomuchCommander instance) {
-		super(instance, 50);
+		super(instance, 63);
 	}
 
 	@Override

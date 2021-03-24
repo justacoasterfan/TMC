@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "nfested_ushroom",
+    "texture": "nfested_apling",
     "customModelName": "Cross model",
     "plantType": "normal",
     "growapableSpawnType": "Plains",

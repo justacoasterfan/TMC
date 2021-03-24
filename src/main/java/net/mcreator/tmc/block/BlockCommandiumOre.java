@@ -36,7 +36,7 @@ public class BlockCommandiumOre extends ElementsToomuchCommander.ModElement {
 	@GameRegistry.ObjectHolder("tmc:commandiumore")
 	public static final Block block = null;
 	public BlockCommandiumOre(ElementsToomuchCommander instance) {
-		super(instance, 8);
+		super(instance, 13);
 	}
 
 	@Override
