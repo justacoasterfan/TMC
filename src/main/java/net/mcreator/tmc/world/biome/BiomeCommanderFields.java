@@ -1,8 +1,6 @@
 
 package net.mcreator.tmc.world.biome;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
@@ -41,8 +39,7 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Commander Fields").setRainfall(0.5F).setBaseHeight(0.1F).setWaterColor(-16751104)
-					.setHeightVariation(0.2F).setTemperature(0.5F));
+			super(new Biome.BiomeProperties("Commander Fields").setRainfall(0.5F).setBaseHeight(0.1F).setHeightVariation(0.2F).setTemperature(0.5F));
 			setRegistryName("commanderfields");
 			topBlock = BlockVirusGrassBlock.block.getDefaultState();
 			fillerBlock = Blocks.DIRT.getStateFromMeta(0);
@@ -64,24 +61,6 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 			this.spawnableCreatureList.add(new SpawnListEntry(EntityCommanderSkeleton.EntityCustom.class, 40, 1, 5));
 		}
 
-		@SideOnly(Side.CLIENT)
-		@Override
-		public int getGrassColorAtPos(BlockPos pos) {
-			return -16764109;
-		}
-
-		@SideOnly(Side.CLIENT)
-		@Override
-		public int getFoliageColorAtPos(BlockPos pos) {
-			return -16764109;
-		}
-
-		@SideOnly(Side.CLIENT)
-		@Override
-		public int getSkyColorByTemp(float currentTemperature) {
-			return -5916161;
-		}
-
 		@Override
 		public WorldGenAbstractTree getRandomTreeFeature(Random rand) {
 			return new CustomTree();
@@ -95,7 +74,7 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 
 		@Override
 		public boolean generate(World world, Random rand, BlockPos position) {
-			int height = rand.nextInt(5) + 7;
+			int height = rand.nextInt(5) + 8;
 			boolean spawnTree = true;
 			if (position.getY() >= 1 && position.getY() + height + 1 <= world.getHeight()) {
 				for (int j = position.getY(); j <= position.getY() + 1 + height; j++) {
@@ -139,8 +118,8 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 										state = world.getBlockState(blockpos);
 										if (state.getBlock().isAir(state, world, blockpos) || state.getBlock().isLeaves(state, world, blockpos)
 												|| state.getBlock() == Blocks.VINE.getDefaultState().getBlock()
-												|| state.getBlock() == Blocks.LEAVES.getStateFromMeta(3).getBlock()) {
-											this.setBlockAndNotifyAdequately(world, blockpos, Blocks.LEAVES.getStateFromMeta(3));
+												|| state.getBlock() == Blocks.LEAVES.getStateFromMeta(0).getBlock()) {
+											this.setBlockAndNotifyAdequately(world, blockpos, Blocks.LEAVES.getStateFromMeta(0));
 										}
 									}
 								}
@@ -150,7 +129,7 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 							BlockPos genhPos = position.up(genh);
 							state = world.getBlockState(genhPos);
 							if (state.getBlock().isAir(state, world, genhPos) || state.getBlock() == Blocks.VINE.getDefaultState().getBlock()
-									|| state.getBlock() == Blocks.LEAVES.getStateFromMeta(3).getBlock()) {
+									|| state.getBlock() == Blocks.LEAVES.getStateFromMeta(0).getBlock()) {
 								this.setBlockAndNotifyAdequately(world, position.up(genh), BlockInfestedLog.block.getDefaultState());
 								if (genh > 0) {
 									if (rand.nextInt(3) > 0 && world.isAirBlock(position.add(-1, genh, 0)))
@@ -171,7 +150,7 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 									BlockPos bpos = new BlockPos(genx, genh, genz);
 									state = world.getBlockState(bpos);
 									if (state.getBlock().isLeaves(state, world, bpos)
-											|| state.getBlock() == Blocks.LEAVES.getStateFromMeta(3).getBlock()) {
+											|| state.getBlock() == Blocks.LEAVES.getStateFromMeta(0).getBlock()) {
 										BlockPos blockpos1 = bpos.south();
 										BlockPos blockpos2 = bpos.west();
 										BlockPos blockpos3 = bpos.east();
@@ -195,7 +174,7 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 										EnumFacing enumfacing1 = enumfacing.getOpposite();
 										this.setBlockAndNotifyAdequately(world,
 												position.add(enumfacing1.getFrontOffsetX(), height - 5 + hlevel, enumfacing1.getFrontOffsetZ()),
-												Blocks.LEAVES.getStateFromMeta(3));
+												Blocks.LEAVES.getStateFromMeta(0));
 									}
 								}
 							}
@@ -222,7 +201,7 @@ public class BiomeCommanderFields extends ElementsToomuchCommander.ModElement {
 		@Override
 		protected boolean canGrowInto(Block blockType) {
 			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == BlockInfestedLog.block.getDefaultState().getBlock()
-					|| blockType == Blocks.LEAVES.getStateFromMeta(3).getBlock()
+					|| blockType == Blocks.LEAVES.getStateFromMeta(0).getBlock()
 					|| blockType == BlockVirusGrassBlock.block.getDefaultState().getBlock()
 					|| blockType == Blocks.DIRT.getStateFromMeta(0).getBlock();
 		}

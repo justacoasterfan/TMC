@@ -12,7 +12,7 @@
     "generateLakes": true,
     "treeType": 1,
     "vanillaTreeType": "Default",
-    "minHeight": 7,
+    "minHeight": 8,
     "spawnVines": true,
     "treeVines": {
       "value": "Blocks.VINE"
@@ -21,18 +21,18 @@
       "value": "CUSTOM:InfestedLog"
     },
     "treeBranch": {
-      "value": "Blocks.LEAVES#3"
+      "value": "Blocks.LEAVES#0"
     },
     "treeFruits": {
-      "value": "Blocks.LEAVES#3"
+      "value": "Blocks.LEAVES#0"
     },
-    "customColors": true,
+    "customColors": false,
     "airColor": {
-      "value": -5916161,
+      "value": -13421773,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -16764109,
+      "value": -16751104,
       "falpha": 0.0
     },
     "waterColor": {

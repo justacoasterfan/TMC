@@ -2,7 +2,7 @@
   "display": {
     "background": "minecraft:textures/blocks/stone.png",
     "icon": {
-      "item": "tmc:voidshard"
+      "item": "tmc:commanderbone"
     },
     "title": {
       "translate": "advancements.yourcomputerhasvirus.title"
